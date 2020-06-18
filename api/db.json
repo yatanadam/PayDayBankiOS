@@ -1,0 +1,598 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "Nadiah",
+      "last_name": "Spoel",
+      "gender": "female",
+      "email": "Nadiah.Spoel@example.com",
+      "password": "springs",
+      "dob": "1983-05-22T06:22:24.377Z",
+      "phone": "5049540375"
+    },
+    {
+      "id": 2,
+      "first_name": "Mael",
+      "last_name": "Sanchez",
+      "gender": "male",
+      "email": "Mael.Sanchez@example.com",
+      "password": "xxx123",
+      "dob": "1962-01-23T11:26:11.680Z",
+      "phone": "0795756036"
+    },
+    {
+      "id": 3,
+      "first_name": "Anny",
+      "last_name": "Ahmad",
+      "gender": "female",
+      "email": "Anny.Ahmad@example.com",
+      "password": "runner",
+      "dob": "1979-07-07T13:38:46.827Z",
+      "phone": "8433395332"
+    },
+    {
+      "id": 4,
+      "first_name": "Elling",
+      "last_name": "Birkeland",
+      "gender": "male",
+      "email": "Elling.Birkeland@example.com",
+      "password": "seven7",
+      "dob": "1996-10-08T22:36:50.363Z",
+      "phone": "50637326"
+    },
+    {
+      "first_name": "Nadiah",
+      "last_name": "Spoel",
+      "gender": "female",
+      "email": "Tom.Newton@example.com",
+      "password": "springs",
+      "dob": "1993-02-12T08:22:24.377Z",
+      "phone": "1049520521",
+      "id": 5
+    },
+    {
+      "first_name": "Tom",
+      "last_name": "Newton",
+      "gender": "female",
+      "email": "Tom.Newton@example.com",
+      "password": "springs",
+      "dob": "1993-02-12T08:22:24.377Z",
+      "phone": "1049520521",
+      "id": 6
+    },
+    {
+      "first_name": "Tete",
+      "last_name": "POTO",
+      "gender": "female",
+      "email": "Tom.Newton@example.com",
+      "password": "springs",
+      "dob": "1993-02-12T08:22:24.377Z",
+      "phone": "1049520521",
+      "id": 7
+    },
+    {
+      "gender": "male ",
+      "password": "123456",
+      "phone": "111111111",
+      "dob": "11.11.2020",
+      "last_name": "ghjk",
+      "email": "a@a.com",
+      "first_name": "asdf",
+      "id": 8
+    },
+    {
+      "gender": "male ",
+      "password": "135790",
+      "phone": "44444",
+      "dob": "1.1.2020",
+      "last_name": "wwwww",
+      "email": "b@b.com",
+      "first_name": "qqqqq",
+      "id": 9
+    },
+    {
+      "gender": "female",
+      "password": "123123",
+      "phone": "245345345",
+      "dob": "12.12.1212",
+      "last_name": "bnmö",
+      "email": "c@c.com",
+      "first_name": "zxcv",
+      "id": 10
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "customer_id": 3,
+      "iban": "LB28 1917 VHVL M7MM 5Z96 KRFU HUHV",
+      "type": "Savings",
+      "date_created": "11/2/2018",
+      "active": true
+    },
+    {
+      "id": 2,
+      "customer_id": 1,
+      "iban": "CR63 9723 6739 2728 6349 7",
+      "type": "Savings",
+      "date_created": "1/14/2019",
+      "active": true
+    },
+    {
+      "id": 3,
+      "customer_id": 2,
+      "iban": "CR82 7335 5537 7228 3922 9",
+      "type": "Savings",
+      "date_created": "5/4/2016",
+      "active": false
+    },
+    {
+      "id": 4,
+      "customer_id": 1,
+      "iban": "FR09 4068 1518 99U7 KSGN BEIK D28",
+      "type": "Current",
+      "date_created": "4/5/2019",
+      "active": true
+    },
+    {
+      "id": 5,
+      "customer_id": 3,
+      "iban": "IS69 7132 3395 8144 6917 9301 92",
+      "type": "Savings",
+      "date_created": "11/16/2018",
+      "active": true
+    },
+    {
+      "id": 6,
+      "customer_id": 4,
+      "iban": "AZ71 FCHA XKHQ MUFL KGIY ZLBL X05R",
+      "type": "Current",
+      "date_created": "9/16/2019",
+      "active": true
+    },
+    {
+      "id": 7,
+      "customer_id": 3,
+      "iban": "MC18 9281 4307 18BQ 6IJD VGXK Y15",
+      "type": "Current",
+      "date_created": "7/6/2019",
+      "active": false
+    },
+    {
+      "active": "true",
+      "customer_id": "7",
+      "date_created": "1/14/2019",
+      "iban": "2312321",
+      "type": "saving",
+      "id": 8
+    },
+    {
+      "iban": "293101293459294",
+      "customer_id": 0,
+      "active": true,
+      "type": "savings",
+      "date_created": "2019-05-22T06:22:24.377Z",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    }
+  ],
+  "transactions": [
+    {
+      "id": 2,
+      "account_id": 1,
+      "amount": "7196.35",
+      "vendor": "Grimes, Quigley and Runolfsson",
+      "category": "Salary",
+      "date": "2019-03-17T00:04:00Z"
+    },
+    {
+      "id": 3,
+      "account_id": 6,
+      "amount": "-97.51",
+      "vendor": "Nicolas Group",
+      "category": "Kids",
+      "date": "2019-05-13T15:54:28Z"
+    },
+    {
+      "id": 4,
+      "account_id": 6,
+      "amount": "-5.87",
+      "vendor": "Smith, Pacocha and Waters",
+      "category": "Garden",
+      "date": "2019-07-11T04:00:50Z"
+    },
+    {
+      "id": 5,
+      "account_id": 1,
+      "amount": "-11.56",
+      "vendor": "Wolff-Beatty",
+      "category": "Movies",
+      "date": "2018-11-27T11:41:52Z"
+    },
+    {
+      "id": 6,
+      "account_id": 6,
+      "amount": "-19.21",
+      "vendor": "Barrows, Connelly and Gleichner",
+      "category": "Grocery",
+      "date": "2018-12-02T02:31:55Z"
+    },
+    {
+      "id": 7,
+      "account_id": 2,
+      "amount": "4133.34",
+      "vendor": "Kozey-Howe",
+      "category": "Salary",
+      "date": "2019-03-25T15:47:29Z"
+    },
+    {
+      "id": 8,
+      "account_id": 2,
+      "amount": "-163.44",
+      "vendor": "Streich-Haley",
+      "category": "Toys",
+      "date": "2019-08-03T18:19:27Z"
+    },
+    {
+      "id": 9,
+      "account_id": 5,
+      "amount": "-158.60",
+      "vendor": "Purdy-Funk",
+      "category": "Health",
+      "date": "2019-01-15T00:04:05Z"
+    },
+    {
+      "id": 10,
+      "account_id": 1,
+      "amount": "-49.11",
+      "vendor": "Kuvalis-Reilly",
+      "category": "Garden",
+      "date": "2019-04-29T07:52:44Z"
+    },
+    {
+      "id": 11,
+      "account_id": 1,
+      "amount": "-254.04",
+      "vendor": "Shanahan, Hane and Daniel",
+      "category": "Shoes",
+      "date": "2019-08-06T15:07:24Z"
+    },
+    {
+      "id": 12,
+      "account_id": 4,
+      "amount": "-47.40",
+      "vendor": "Langworth-Gleichner",
+      "category": "Movies",
+      "date": "2019-06-29T12:13:01Z"
+    },
+    {
+      "id": 13,
+      "account_id": 1,
+      "amount": "-240.96",
+      "vendor": "Price-Stroman",
+      "category": "Jewelery",
+      "date": "2019-03-27T01:12:58Z"
+    },
+    {
+      "id": 14,
+      "account_id": 4,
+      "amount": "-90.95",
+      "vendor": "Boyer-Brekke",
+      "category": "Beauty",
+      "date": "2019-03-01T07:54:53Z"
+    },
+    {
+      "id": 15,
+      "account_id": 4,
+      "amount": "-231.85",
+      "vendor": "Farrell and Sons",
+      "category": "Electronics",
+      "date": "2019-04-22T10:20:12Z"
+    },
+    {
+      "id": 16,
+      "account_id": 2,
+      "amount": "-26.94",
+      "vendor": "Koelpin LLC",
+      "category": "Toys",
+      "date": "2019-09-27T15:26:10Z"
+    },
+    {
+      "id": 17,
+      "account_id": 1,
+      "amount": "-14.82",
+      "vendor": "Pfeffer and Sons",
+      "category": "Jewelery",
+      "date": "2019-03-24T05:11:47Z"
+    },
+    {
+      "id": 18,
+      "account_id": 4,
+      "amount": "-103.61",
+      "vendor": "Conn, Raynor and Grady",
+      "category": "Games",
+      "date": "2019-06-03T01:30:39Z"
+    },
+    {
+      "id": 19,
+      "account_id": 4,
+      "amount": "-88.54",
+      "vendor": "Bahringer Group",
+      "category": "Music",
+      "date": "2018-12-25T15:38:13Z"
+    },
+    {
+      "id": 20,
+      "account_id": 5,
+      "amount": "-15.32",
+      "vendor": "Turcotte-Nienow",
+      "category": "Grocery",
+      "date": "2019-04-24T19:58:31Z"
+    },
+    {
+      "id": 21,
+      "account_id": 5,
+      "amount": "-86.73",
+      "vendor": "Nienow, Cartwright and Mosciski",
+      "category": "Shoes",
+      "date": "2019-09-05T08:46:18Z"
+    },
+    {
+      "id": 22,
+      "account_id": 1,
+      "amount": "-209.45",
+      "vendor": "Yost Group",
+      "category": "Industrial",
+      "date": "2018-12-11T23:08:27Z"
+    },
+    {
+      "id": 23,
+      "account_id": 6,
+      "amount": "-92.28",
+      "vendor": "Schneider Inc",
+      "category": "Movies",
+      "date": "2018-12-10T04:04:48Z"
+    },
+    {
+      "id": 24,
+      "account_id": 5,
+      "amount": "-23.01",
+      "vendor": "Cormier-Kuhic",
+      "category": "Jewelery",
+      "date": "2019-03-04T04:51:26Z"
+    },
+    {
+      "id": 25,
+      "account_id": 2,
+      "amount": "-130.78",
+      "vendor": "Auer, Wolff and Langworth",
+      "category": "Grocery",
+      "date": "2019-08-17T12:28:49Z"
+    },
+    {
+      "id": 26,
+      "account_id": 4,
+      "amount": "4537.36",
+      "vendor": "Hamill, Labadie and Ortiz",
+      "category": "Salary",
+      "date": "2019-03-05T20:06:50Z"
+    },
+    {
+      "id": 27,
+      "account_id": 6,
+      "amount": "-156.75",
+      "vendor": "Kessler, McDermott and Schroeder",
+      "category": "Tools",
+      "date": "2019-07-30T08:20:29Z"
+    },
+    {
+      "id": 28,
+      "account_id": 5,
+      "amount": "5156.05",
+      "vendor": "DDS Technology",
+      "category": "Salary",
+      "date": "2019-08-21T04:04:06Z"
+    },
+    {
+      "id": 29,
+      "account_id": 2,
+      "amount": "-25.29",
+      "vendor": "Pfannerstill, Zboncak and Abernathy",
+      "category": "Beauty",
+      "date": "2019-04-26T14:47:02Z"
+    },
+    {
+      "id": 30,
+      "account_id": 6,
+      "amount": "-25.59",
+      "vendor": "Lueilwitz-Hermiston",
+      "category": "Sports",
+      "date": "2019-09-05T09:31:42Z"
+    },
+    {
+      "id": 31,
+      "account_id": 5,
+      "amount": "-212.30",
+      "vendor": "Schultz and Sons",
+      "category": "Industrial",
+      "date": "2019-01-25T09:46:37Z"
+    },
+    {
+      "id": 32,
+      "account_id": 1,
+      "amount": "-86.47",
+      "vendor": "O'Keefe-Hansen",
+      "category": "Home",
+      "date": "2019-08-15T04:45:43Z"
+    },
+    {
+      "id": 33,
+      "account_id": 6,
+      "amount": "5230.24",
+      "vendor": "BioMed Labs",
+      "category": "Salary",
+      "date": "2019-08-26T02:16:25Z"
+    },
+    {
+      "id": 34,
+      "account_id": 5,
+      "amount": "-94.83",
+      "vendor": "Krajcik, Schinner and Keeling",
+      "category": "Automotive",
+      "date": "2019-01-18T13:07:22Z"
+    },
+    {
+      "id": 35,
+      "account_id": 1,
+      "amount": "-186.20",
+      "vendor": "Wiegand-Krajcik",
+      "category": "Industrial",
+      "date": "2019-07-24T11:41:45Z"
+    },
+    {
+      "id": 36,
+      "account_id": 6,
+      "amount": "-280.23",
+      "vendor": "Hodkiewicz-Koepp",
+      "category": "Games",
+      "date": "2019-07-16T19:35:52Z"
+    },
+    {
+      "id": 37,
+      "account_id": 6,
+      "amount": "-114.28",
+      "vendor": "Bednar, Zieme and Zemlak",
+      "category": "Computers",
+      "date": "2019-05-06T13:04:54Z"
+    },
+    {
+      "id": 38,
+      "account_id": 2,
+      "amount": "-208.89",
+      "vendor": "Pouros Inc",
+      "category": "Computers",
+      "date": "2018-10-07T16:52:12Z"
+    },
+    {
+      "id": 39,
+      "account_id": 5,
+      "amount": "-28.80",
+      "vendor": "Jones-Keeling",
+      "category": "Clothing",
+      "date": "2019-02-22T17:25:10Z"
+    },
+    {
+      "id": 40,
+      "account_id": 2,
+      "amount": "-57.96",
+      "vendor": "MacGyver Inc",
+      "category": "Health",
+      "date": "2019-07-05T18:07:37Z"
+    },
+    {
+      "id": 41,
+      "account_id": 4,
+      "amount": "-16.94",
+      "vendor": "Greenfelder and Sons",
+      "category": "Garden",
+      "date": "2019-07-10T11:59:08Z"
+    },
+    {
+      "id": 42,
+      "account_id": 2,
+      "amount": "-17.80",
+      "vendor": "Farrell Group",
+      "category": "Health",
+      "date": "2018-10-16T16:20:24Z"
+    },
+    {
+      "id": 43,
+      "account_id": 6,
+      "amount": "-153.10",
+      "vendor": "Hoeger-Stehr",
+      "category": "Clothing",
+      "date": "2019-03-24T04:33:40Z"
+    },
+    {
+      "id": 44,
+      "account_id": 1,
+      "amount": "-166.93",
+      "vendor": "Bernhard-Schmitt",
+      "category": "Grocery",
+      "date": "2019-02-20T08:47:00Z"
+    },
+    {
+      "id": 45,
+      "account_id": 5,
+      "amount": "-64.84",
+      "vendor": "Parker-Kub",
+      "category": "Grocery",
+      "date": "2018-12-17T05:04:23Z"
+    },
+    {
+      "id": 46,
+      "account_id": 5,
+      "amount": "-271.33",
+      "vendor": "Durgan, Bashirian and Metz",
+      "category": "Sports",
+      "date": "2019-06-14T21:34:44Z"
+    },
+    {
+      "id": 47,
+      "account_id": 1,
+      "amount": "-241.11",
+      "vendor": "Murazik and Sons",
+      "category": "Grocery",
+      "date": "2018-11-11T16:19:21Z"
+    },
+    {
+      "id": 48,
+      "account_id": 2,
+      "amount": "-119.25",
+      "vendor": "King and Sons",
+      "category": "Jewelery",
+      "date": "2019-09-20T19:49:40Z"
+    },
+    {
+      "id": 49,
+      "account_id": 5,
+      "amount": "-181.77",
+      "vendor": "Heaney-Bruen",
+      "category": "Kids",
+      "date": "2019-02-17T16:07:16Z"
+    },
+    {
+      "id": 50,
+      "account_id": 6,
+      "amount": "-224.48",
+      "vendor": "Feil-Aufderhar",
+      "category": "Industrial",
+      "date": "2018-10-06T23:47:08Z"
+    },
+    {
+      "id": 51,
+      "account_id": 4,
+      "amount": "-286.13",
+      "vendor": "Shields, Reinger and Kautzer",
+      "category": "Automotive",
+      "date": "2019-09-07T23:17:21Z"
+    }
+  ]
+}

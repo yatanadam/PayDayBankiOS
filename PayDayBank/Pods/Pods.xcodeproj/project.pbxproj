@@ -1,0 +1,1621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00620E71264E0E954D667CEAD6BD0E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E560948864839567941BA877FB2CEA /* UIKit.framework */; };
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EF920E1E7DD55E2CBD864301B4290 /* HTTPMethod.swift */; };
+		019475E72F433C3E51895A3CD999822F /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6D07832162295ABB2C82981638DD4 /* CaptureQuality.swift */; };
+		030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4B18B3C55AF0412E424A48BBA872B9 /* PopupDialogDefaultViewController.swift */; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A6384FD8D12CE5B179E04B48645A4 /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5602B8198FE69A0C6C7C7187A8DA581 /* OperationQueue+Alamofire.swift */; };
+		0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394A27C6E9624B962A8EAC00CB1779A1 /* UIImageView+Calculations.swift */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E75A5F1EFACC91A479F306E4293FB /* AFError.swift */; };
+		169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96955D7E836EF305A6ABFFD8F7FBEBB8 /* TransitionAnimator.swift */; };
+		18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6611DAB1ED0011A810EDF82C78251843 /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C4DC14CC713DC68F954B6CC2F38DE7 /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC87F400BB26E0A3DDB621E03F839BA /* DynamicBlurView.swift */; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5205F85D59430875F435C21781F4F8 /* NetworkReachabilityManager.swift */; };
+		211BB5EA8F35DACE721A93626DC5BC0C /* MaterialActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7EF621E2855603972163A903DEA6F /* MaterialActivityIndicator.swift */; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C804755E239192F0E9F220ECC71E1C /* StringEncoding+Alamofire.swift */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C1853C0FDFBFA36890B44F4216B5EB /* Protected.swift */; };
+		225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4A13D89BFFA60412BB52AEB0344D9 /* PopupDialogContainerView.swift */; };
+		22F60E0D3033E55AD990F94B567FE8C5 /* UIBezierPath+Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A177CE14835298C99E67839805A0A /* UIBezierPath+Circle.swift */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1156521745CDBA4205A25923823ACBF /* DispatchQueue+Alamofire.swift */; };
+		292B4848A8721006695DB3654887738D /* MaterialActivityIndicatorAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCDA810CC7C85FCF42EE26FB388A4D /* MaterialActivityIndicatorAnimator.swift */; };
+		303898D9A1F232CB589A514C4EFFD644 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51CFBD88DFC72CACDE6AA2245C415B4 /* CGContext+CGImage.swift */; };
+		37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1D6350DEBDABF5489181CE240FCE5 /* UIView+Animations.swift */; };
+		37B464DA33104653FA64ACDD691F8A5F /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34205BA7462DBE724556F7542DD79E00 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE5F6EBEA52C97CAEA869BA48AB8E6 /* SessionDelegate.swift */; };
+		3B7C8060829AC9C1D3A1E269DD40DDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+		3FEBEBFE1FDE343D06CCC99212B50FB3 /* CGSize+Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE5EFD4FEDA0A3F906E4CFAC8DC407 /* CGSize+Min.swift */; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DF41905B09D7498BEEFB84A82EADB /* MultipartFormData.swift */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315066A289F91A0ECEC42C9868700A5 /* ServerTrustEvaluation.swift */; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F0A7F3A89581DA0E0BBC8B97C3ECE /* ParameterEncoder.swift */; };
+		4C6E460A6B911AFFD987F78AC59B7466 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494DB3E1089FA2524CE1137EF0F525AD /* DynamicBlurView.framework */; };
+		4EE5593FF43056E5A20199B53B8D967A /* CGRect+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0637C01F83AC331277E31064E3D8D /* CGRect+Center.swift */; };
+		535CD4014DCA990CEE8A4783486170FB /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2796F045E156D9CA27847452451FBC /* TrackingMode.swift */; };
+		5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A09F0AE2C3E4A9704B430349E773F /* PopupDialog.swift */; };
+		56AFE70BFC504C323DCD05DD2E518E3D /* MaterialActivityIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F727B92FCA0E67B9CDEDE7A6519528B /* MaterialActivityIndicator-dummy.m */; };
+		5DEC08390B45964F134031705400158F /* Pods-PayDayBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA1C3C747A5A3D7AD210483524702E6 /* Pods-PayDayBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5176DCB75E9BB9D2D214B7CA2B3423A3 /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E12CC9F275F8DBC85AE59C3F7747 /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38858FF46068525E9D5BCAA209F8E7FB /* Result+Alamofire.swift */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57262ADF72328B80AAC9D4AA87D4A9DE /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BBC17A5D331F69BAB3885EC223CB18 /* RequestTaskMap.swift */; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7748F8722B8F834545874B7416339 /* RequestInterceptor.swift */; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2B0660A7AB6A4DE0210F375E732C3 /* AlamofireExtended.swift */; };
+		73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7BA1AE4B87812B23334A36706D81 /* PopupDialog-dummy.m */; };
+		77A6CDEF9E811FDC43DB3F11A611DFFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+		7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DB5C73FEE6832A0AB69C3ECC7EF4C7 /* TransitionAnimations.swift */; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C64B36739AE39C16F10B7E7314CD2 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51205D7C7A7AA46B396843C98DE3E0D6 /* DynamicBlurView-dummy.m */; };
+		7FDF82C93C791618203DD7FCD99785C5 /* Pods-PayDayBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBAEC8054D14B2C474201EE9215D24 /* Pods-PayDayBank-dummy.m */; };
+		7FF0649D3237A34599DA73541656009B /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88152591AE2F9CABF254DB93AB1D67E3 /* UIImage+Blur.swift */; };
+		83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925C9CE6526A73B479D2052372074BF /* PresentationManager.swift */; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E2D201F49FBFA2ECEFACA67E3F38F /* Notifications.swift */; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242AA2EE42645079AD74CBFDD7F5DB1 /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154AEA9EBCCC97907D3D5FCD5EF1A49D /* HTTPHeaders.swift */; };
+		928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62CEE348C7E798E85B1BCBC39C08639 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950132A50FE878256E837157FEE04FC6 /* CAPropertyAnimation+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5BF2F09FA58B5E7FC2B1F6D2753A3 /* CAPropertyAnimation+Key.swift */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B71864B21C6206CCB670ED63A9BE5 /* URLConvertible+URLRequestConvertible.swift */; };
+		9B45F788C4CE05D2DC0686432FB0EE22 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249BE7A44820C72FA38D813713687381 /* Accelerate.framework */; };
+		9C051B4DA1B8D1854F8434880F9F5ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E560948864839567941BA877FB2CEA /* UIKit.framework */; };
+		9CB73C2028D1E16DFE87289362792A4F /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00222F5763D6F6B7DBA195F6D83CA5F0 /* CGImage+Accelerate.swift */; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37050A7E1E8DB5F4C4A91F2C31B759EB /* RetryPolicy.swift */; };
+		A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE66DBF5C992F97EF3993D55A950972 /* PopupDialogDefaultButtons.swift */; };
+		A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B16321EA4CDC611696F88D59E81338 /* CFNetwork.framework */; };
+		A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321104C34CF43EE31460C5C122425CF0 /* PopupDialogOverlayView.swift */; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE21C7FCDD1588130A4CE53E8B56A4A /* CachedResponseHandler.swift */; };
+		AFD9E2294DD82B35A2C986F8C3F32609 /* MaterialActivityIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B2EE7A89AA152CDACFE47C7FC317EA /* MaterialActivityIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18FE5EE478D75593AE4D0C6B1E6506F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+		B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A89495820F1F0ED4C464C2A08FA924 /* PopupDialog+Keyboard.swift */; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A4C8101C315E3CF1A165D4106D5ED /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05736BB2F1FE559F34A5381026E952B0 /* Alamofire.swift */; };
+		C60BE1FA828EA5AB3878B9908E2ACFDE /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D471AEA620DF1B01DA1B82830461463 /* BlurLayer.swift */; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9389997C2AFA0DBB1B0A4A10648F70A /* Alamofire-dummy.m */; };
+		C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393B724F7960F72CBF9957AB8789916 /* PopupDialogDefaultView.swift */; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085B885A63C54BA466A97BA2C98CB70 /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5ECCCA3143D79BABB40555FCFDDFCA /* ParameterEncoding.swift */; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC1C7E2BF638D23436B0352BA9C8E7 /* URLEncodedFormEncoder.swift */; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EBB8F2CB01B070997C57D7E389636 /* URLRequest+Alamofire.swift */; };
+		D7A06215522B29A126C1E9166136318C /* Pods-PayDayBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22900AB1E478C1EFD75600A41026E874 /* Pods-PayDayBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4186AA9913DD7D35BCCD13370BF2A /* UIViewController+Visibility.swift */; };
+		D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BE88E338DBAE9E05DBBB7855A5968 /* PresentationController.swift */; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B8288F5673C04EF13B4DC97F4A430B /* AuthenticationInterceptor.swift */; };
+		DCEE2E72739ADFB7890C33BC35099C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+		EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF077A604754E675892F730E8B725967 /* InteractiveTransition.swift */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1434241907609442DDED77FBFEC994D /* Request.swift */; };
+		EFCCCD5C5B997F689AC1C12C41F0DF9C /* Pods-PayDayBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BD8B4FB0F16EF0FC115FC92A22519 /* Pods-PayDayBankTests-dummy.m */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38BB6F665A39FDE3F07A03251F7782 /* Validation.swift */; };
+		F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56846A4AD3A40089073888F9A20919DD /* URLSessionConfiguration+Alamofire.swift */; };
+		F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50291EA0B0512F638D797E047956FC93 /* PopupDialogButton.swift */; };
+		FDFF7ACEC666558B1B7869A43905B3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C9AF6212F6D5A4C8EA1809921E0442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
+		14BBD52A87A17414ED8BF75756E024A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		174400A4BE44E1732E5E003DBE3265F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		2763FCA98104FEE93EB4E54D32DDF454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		533AA69524D8C3E3410DDCA3FD062F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D7BFD121CFA8B22535F5601079DEA7;
+			remoteInfo = MaterialActivityIndicator;
+		};
+		C8551CE8722ED4F1AF4426B22E9EC7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E185E4D6B8B21FE1DAB78AF124D4C1;
+			remoteInfo = "Pods-PayDayBank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00222F5763D6F6B7DBA195F6D83CA5F0 /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "Sources/DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		03D4A13D89BFFA60412BB52AEB0344D9 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		05736BB2F1FE559F34A5381026E952B0 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		05B8288F5673C04EF13B4DC97F4A430B /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		066BE424154A9D12EC52EEFBEF1CA54D /* Pods-PayDayBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayDayBankTests.modulemap"; sourceTree = "<group>"; };
+		0EE21C7FCDD1588130A4CE53E8B56A4A /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		154AEA9EBCCC97907D3D5FCD5EF1A49D /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		1D8A177CE14835298C99E67839805A0A /* UIBezierPath+Circle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Circle.swift"; path = "MaterialActivityIndicator/Classes/Extensions/UIBezierPath+Circle.swift"; sourceTree = "<group>"; };
+		22900AB1E478C1EFD75600A41026E874 /* Pods-PayDayBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayDayBankTests-umbrella.h"; sourceTree = "<group>"; };
+		22C1853C0FDFBFA36890B44F4216B5EB /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		249BE7A44820C72FA38D813713687381 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		26E1D6350DEBDABF5489181CE240FCE5 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		27C947111F05E50E155DACD7C1FEB0A7 /* MaterialActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialActivityIndicator.framework; path = MaterialActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321104C34CF43EE31460C5C122425CF0 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		3393B724F7960F72CBF9957AB8789916 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		34205BA7462DBE724556F7542DD79E00 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = Sources/DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37050A7E1E8DB5F4C4A91F2C31B759EB /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		38858FF46068525E9D5BCAA209F8E7FB /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		388F35882184C91A9463FBE662719362 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		394A27C6E9624B962A8EAC00CB1779A1 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		3A9EF920E1E7DD55E2CBD864301B4290 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		3AE1431E4F30D01368F3A3DE5C97296A /* PopupDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.debug.xcconfig; sourceTree = "<group>"; };
+		3B5205F85D59430875F435C21781F4F8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3FA1C3C747A5A3D7AD210483524702E6 /* Pods-PayDayBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayDayBank-umbrella.h"; sourceTree = "<group>"; };
+		3FE66DBF5C992F97EF3993D55A950972 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		42B2EE7A89AA152CDACFE47C7FC317EA /* MaterialActivityIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialActivityIndicator-umbrella.h"; sourceTree = "<group>"; };
+		43EC7BA1AE4B87812B23334A36706D81 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		45A89495820F1F0ED4C464C2A08FA924 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		47C804755E239192F0E9F220ECC71E1C /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		494DB3E1089FA2524CE1137EF0F525AD /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6A6384FD8D12CE5B179E04B48645A4 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		4A78FB0B34B03E7102128F592983E49D /* Pods-PayDayBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayDayBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50291EA0B0512F638D797E047956FC93 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		51205D7C7A7AA46B396843C98DE3E0D6 /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		5176DCB75E9BB9D2D214B7CA2B3423A3 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		5242AA2EE42645079AD74CBFDD7F5DB1 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		56846A4AD3A40089073888F9A20919DD /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		57262ADF72328B80AAC9D4AA87D4A9DE /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		58B7EF621E2855603972163A903DEA6F /* MaterialActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialActivityIndicator.swift; path = MaterialActivityIndicator/Classes/MaterialActivityIndicator.swift; sourceTree = "<group>"; };
+		591B71864B21C6206CCB670ED63A9BE5 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		5C2796F045E156D9CA27847452451FBC /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = Sources/DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1E75A5F1EFACC91A479F306E4293FB /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5F92363BB18CA71EE3C0DB3709DEDA16 /* Pods-PayDayBankTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayDayBankTests-Info.plist"; sourceTree = "<group>"; };
+		63DE5F6EBEA52C97CAEA869BA48AB8E6 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		64765A8D2A66E5C016AF354D29F38AE8 /* Pods-PayDayBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayDayBank-acknowledgements.plist"; sourceTree = "<group>"; };
+		65F2B0660A7AB6A4DE0210F375E732C3 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		6611DAB1ED0011A810EDF82C78251843 /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		68E560948864839567941BA877FB2CEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A0DA63DE461D085E29ED6EDB22152E3 /* Pods_PayDayBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayDayBankTests.framework; path = "Pods-PayDayBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D471AEA620DF1B01DA1B82830461463 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = Sources/DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		6D4B18B3C55AF0412E424A48BBA872B9 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		6E1BD8B4FB0F16EF0FC115FC92A22519 /* Pods-PayDayBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayDayBankTests-dummy.m"; sourceTree = "<group>"; };
+		6F727B92FCA0E67B9CDEDE7A6519528B /* MaterialActivityIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialActivityIndicator-dummy.m"; sourceTree = "<group>"; };
+		6FCE5EFD4FEDA0A3F906E4CFAC8DC407 /* CGSize+Min.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Min.swift"; path = "MaterialActivityIndicator/Classes/Extensions/CGSize+Min.swift"; sourceTree = "<group>"; };
+		6FE7748F8722B8F834545874B7416339 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		726C112949BC860107194C0198A5BD53 /* DynamicBlurView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.debug.xcconfig; sourceTree = "<group>"; };
+		74F6D07832162295ABB2C82981638DD4 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = Sources/DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		77D9019BDCB68B367E0EA958217C1E70 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		784EC8E1442A7D3116F6C9BF533D1219 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		7925C9CE6526A73B479D2052372074BF /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		7A6509A87F4B6A1C93423C96B332354B /* PopupDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.release.xcconfig; sourceTree = "<group>"; };
+		7D38BB6F665A39FDE3F07A03251F7782 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		7D693F0E8F3FCE718C6A0E7BD776CCA7 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		816EBB8F2CB01B070997C57D7E389636 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		81AEC419CB621C1E8CF8AF769A81DD7C /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
+		856B85EC1EF3F6754629BB831B00A445 /* MaterialActivityIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialActivityIndicator-Info.plist"; sourceTree = "<group>"; };
+		858635E5B776C9F5D10C8E3892390777 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView.framework; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88152591AE2F9CABF254DB93AB1D67E3 /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "Sources/DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		8980F8875143A3A94CB0DAC9A8C8182E /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		8C2BE88E338DBAE9E05DBBB7855A5968 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		8D0A0834F9AEBA912281D7F345DA1647 /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
+		90D94C414D1A42667B479FE60367A99F /* Pods-PayDayBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayDayBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		96955D7E836EF305A6ABFFD8F7FBEBB8 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		99D5BF2F09FA58B5E7FC2B1F6D2753A3 /* CAPropertyAnimation+Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAPropertyAnimation+Key.swift"; path = "MaterialActivityIndicator/Classes/Extensions/CAPropertyAnimation+Key.swift"; sourceTree = "<group>"; };
+		9D5ECCCA3143D79BABB40555FCFDDFCA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5F0A7F3A89581DA0E0BBC8B97C3ECE /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		9FE6F6D2EC1E4EC084CDDDA450FD3D87 /* Pods-PayDayBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayDayBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A06E2D201F49FBFA2ECEFACA67E3F38F /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A0A71D0DD205A2A89C66F5C447359F1B /* Pods-PayDayBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayDayBank-frameworks.sh"; sourceTree = "<group>"; };
+		A4DB5C73FEE6832A0AB69C3ECC7EF4C7 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		A5FB87B8498339633B1405591C416A90 /* MaterialActivityIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialActivityIndicator.release.xcconfig; sourceTree = "<group>"; };
+		A717934A2E0E40B6C23D7120725F0C2E /* Pods-PayDayBank-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayDayBank-Info.plist"; sourceTree = "<group>"; };
+		A9A8E12CC9F275F8DBC85AE59C3F7747 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		ADF4186AA9913DD7D35BCCD13370BF2A /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		B35B95F4FACDF1403F71B75D279865C2 /* MaterialActivityIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialActivityIndicator.debug.xcconfig; sourceTree = "<group>"; };
+		B36164C5FE65A39026BC71A2194D226F /* Pods-PayDayBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayDayBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3DBEBC0D4477D58A57174291F54F350 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		B4B16321EA4CDC611696F88D59E81338 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		B76C64B36739AE39C16F10B7E7314CD2 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1156521745CDBA4205A25923823ACBF /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C1434241907609442DDED77FBFEC994D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C5A0637C01F83AC331277E31064E3D8D /* CGRect+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Center.swift"; path = "MaterialActivityIndicator/Classes/Extensions/CGRect+Center.swift"; sourceTree = "<group>"; };
+		C68DF41905B09D7498BEEFB84A82EADB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		D11F086FF969B24EB4F4FB393D9B0FAD /* Pods-PayDayBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayDayBank.debug.xcconfig"; sourceTree = "<group>"; };
+		D1CCDA810CC7C85FCF42EE26FB388A4D /* MaterialActivityIndicatorAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialActivityIndicatorAnimator.swift; path = MaterialActivityIndicator/Classes/MaterialActivityIndicatorAnimator.swift; sourceTree = "<group>"; };
+		D3AD6A81F40465BBBFBB8012FB953896 /* Pods-PayDayBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayDayBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51CFBD88DFC72CACDE6AA2245C415B4 /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "Sources/DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		D746BFE0BDCF9B586CFDE2567703EDBE /* Pods-PayDayBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayDayBank.modulemap"; sourceTree = "<group>"; };
+		D9389997C2AFA0DBB1B0A4A10648F70A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		D9BF32B1EF80D9EC4D90B9A38D1E2B94 /* DynamicBlurView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.release.xcconfig; sourceTree = "<group>"; };
+		DA1A09F0AE2C3E4A9704B430349E773F /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		DC0A4C8101C315E3CF1A165D4106D5ED /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DC93A66422B522164B638DC4EE5DBE47 /* MaterialActivityIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialActivityIndicator.modulemap; sourceTree = "<group>"; };
+		DF077A604754E675892F730E8B725967 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		E1FC1C7E2BF638D23436B0352BA9C8E7 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		E315066A289F91A0ECEC42C9868700A5 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		E5602B8198FE69A0C6C7C7187A8DA581 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E5C4BD9FDDA1FACD415F4D6E20C1F110 /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayDayBank.framework; path = "Pods-PayDayBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62CEE348C7E798E85B1BCBC39C08639 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		EDC87F400BB26E0A3DDB621E03F839BA /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = Sources/DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		F02DB99EDF6D436E75DE23E428A2733D /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		F039090824689A069F921D58EF0FA2FB /* Pods-PayDayBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayDayBank.release.xcconfig"; sourceTree = "<group>"; };
+		F085B885A63C54BA466A97BA2C98CB70 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		F3BBC17A5D331F69BAB3885EC223CB18 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		F3F5260146CFB324D0AB6EE34E91B4EB /* MaterialActivityIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialActivityIndicator-prefix.pch"; sourceTree = "<group>"; };
+		F8CBAEC8054D14B2C474201EE9215D24 /* Pods-PayDayBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayDayBank-dummy.m"; sourceTree = "<group>"; };
+		FD7B2158932465CAB0015E9ACE14708B /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A9F3B903556F6AC470A81915EB7808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A6CDEF9E811FDC43DB3F11A611DFFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620651F2ADFE51A3412E5183D6849FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7C8060829AC9C1D3A1E269DD40DDF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F47434089ED97AF48B711E9FADBF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E460A6B911AFFD987F78AC59B7466 /* DynamicBlurView.framework in Frameworks */,
+				B18FE5EE478D75593AE4D0C6B1E6506F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */,
+				F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03A729BB4EC525F91C37A8397A8D421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFF7ACEC666558B1B7869A43905B3E3 /* Foundation.framework in Frameworks */,
+				9C051B4DA1B8D1854F8434880F9F5ED7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65CA3D384260DCB7B4E58EA234ABEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B45F788C4CE05D2DC0686432FB0EE22 /* Accelerate.framework in Frameworks */,
+				DCEE2E72739ADFB7890C33BC35099C01 /* Foundation.framework in Frameworks */,
+				00620E71264E0E954D667CEAD6BD0E99 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B148F6C6C2C999D545236B76AC0230C /* Pods-PayDayBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				066BE424154A9D12EC52EEFBEF1CA54D /* Pods-PayDayBankTests.modulemap */,
+				9FE6F6D2EC1E4EC084CDDDA450FD3D87 /* Pods-PayDayBankTests-acknowledgements.markdown */,
+				D3AD6A81F40465BBBFBB8012FB953896 /* Pods-PayDayBankTests-acknowledgements.plist */,
+				6E1BD8B4FB0F16EF0FC115FC92A22519 /* Pods-PayDayBankTests-dummy.m */,
+				5F92363BB18CA71EE3C0DB3709DEDA16 /* Pods-PayDayBankTests-Info.plist */,
+				22900AB1E478C1EFD75600A41026E874 /* Pods-PayDayBankTests-umbrella.h */,
+				B36164C5FE65A39026BC71A2194D226F /* Pods-PayDayBankTests.debug.xcconfig */,
+				90D94C414D1A42667B479FE60367A99F /* Pods-PayDayBankTests.release.xcconfig */,
+			);
+			name = "Pods-PayDayBankTests";
+			path = "Target Support Files/Pods-PayDayBankTests";
+			sourceTree = "<group>";
+		};
+		0F43069C71D9E4277FF39AF5388BEF8E /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				6D471AEA620DF1B01DA1B82830461463 /* BlurLayer.swift */,
+				74F6D07832162295ABB2C82981638DD4 /* CaptureQuality.swift */,
+				D51CFBD88DFC72CACDE6AA2245C415B4 /* CGContext+CGImage.swift */,
+				00222F5763D6F6B7DBA195F6D83CA5F0 /* CGImage+Accelerate.swift */,
+				34205BA7462DBE724556F7542DD79E00 /* DynamicBlurView.h */,
+				EDC87F400BB26E0A3DDB621E03F839BA /* DynamicBlurView.swift */,
+				5C2796F045E156D9CA27847452451FBC /* TrackingMode.swift */,
+				88152591AE2F9CABF254DB93AB1D67E3 /* UIImage+Blur.swift */,
+				D81BD48864D498B565E756FD22596679 /* Support Files */,
+			);
+			name = DynamicBlurView;
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		13039C325DB3C984AF8B44D6A60150FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC93A66422B522164B638DC4EE5DBE47 /* MaterialActivityIndicator.modulemap */,
+				6F727B92FCA0E67B9CDEDE7A6519528B /* MaterialActivityIndicator-dummy.m */,
+				856B85EC1EF3F6754629BB831B00A445 /* MaterialActivityIndicator-Info.plist */,
+				F3F5260146CFB324D0AB6EE34E91B4EB /* MaterialActivityIndicator-prefix.pch */,
+				42B2EE7A89AA152CDACFE47C7FC317EA /* MaterialActivityIndicator-umbrella.h */,
+				B35B95F4FACDF1403F71B75D279865C2 /* MaterialActivityIndicator.debug.xcconfig */,
+				A5FB87B8498339633B1405591C416A90 /* MaterialActivityIndicator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialActivityIndicator";
+			sourceTree = "<group>";
+		};
+		299B63446FFD9E68298874E9A1D63B57 /* MaterialActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				99D5BF2F09FA58B5E7FC2B1F6D2753A3 /* CAPropertyAnimation+Key.swift */,
+				C5A0637C01F83AC331277E31064E3D8D /* CGRect+Center.swift */,
+				6FCE5EFD4FEDA0A3F906E4CFAC8DC407 /* CGSize+Min.swift */,
+				58B7EF621E2855603972163A903DEA6F /* MaterialActivityIndicator.swift */,
+				D1CCDA810CC7C85FCF42EE26FB388A4D /* MaterialActivityIndicatorAnimator.swift */,
+				1D8A177CE14835298C99E67839805A0A /* UIBezierPath+Circle.swift */,
+				13039C325DB3C984AF8B44D6A60150FA /* Support Files */,
+			);
+			name = MaterialActivityIndicator;
+			path = MaterialActivityIndicator;
+			sourceTree = "<group>";
+		};
+		8A71C281C572094CE0A7B1544B44A560 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D693F0E8F3FCE718C6A0E7BD776CCA7 /* PopupDialog.modulemap */,
+				43EC7BA1AE4B87812B23334A36706D81 /* PopupDialog-dummy.m */,
+				81AEC419CB621C1E8CF8AF769A81DD7C /* PopupDialog-Info.plist */,
+				FD7B2158932465CAB0015E9ACE14708B /* PopupDialog-prefix.pch */,
+				E62CEE348C7E798E85B1BCBC39C08639 /* PopupDialog-umbrella.h */,
+				3AE1431E4F30D01368F3A3DE5C97296A /* PopupDialog.debug.xcconfig */,
+				7A6509A87F4B6A1C93423C96B332354B /* PopupDialog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		B605505D12FDA7C2BA7968B0FA1C4124 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DBEBC0D4477D58A57174291F54F350 /* Alamofire.modulemap */,
+				D9389997C2AFA0DBB1B0A4A10648F70A /* Alamofire-dummy.m */,
+				784EC8E1442A7D3116F6C9BF533D1219 /* Alamofire-Info.plist */,
+				858635E5B776C9F5D10C8E3892390777 /* Alamofire-prefix.pch */,
+				B76C64B36739AE39C16F10B7E7314CD2 /* Alamofire-umbrella.h */,
+				77D9019BDCB68B367E0EA958217C1E70 /* Alamofire.debug.xcconfig */,
+				8980F8875143A3A94CB0DAC9A8C8182E /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		BE73AC2434A4129359930CA7BAF0CFD1 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5F1E75A5F1EFACC91A479F306E4293FB /* AFError.swift */,
+				05736BB2F1FE559F34A5381026E952B0 /* Alamofire.swift */,
+				65F2B0660A7AB6A4DE0210F375E732C3 /* AlamofireExtended.swift */,
+				05B8288F5673C04EF13B4DC97F4A430B /* AuthenticationInterceptor.swift */,
+				0EE21C7FCDD1588130A4CE53E8B56A4A /* CachedResponseHandler.swift */,
+				4A6A6384FD8D12CE5B179E04B48645A4 /* Combine.swift */,
+				C1156521745CDBA4205A25923823ACBF /* DispatchQueue+Alamofire.swift */,
+				5176DCB75E9BB9D2D214B7CA2B3423A3 /* EventMonitor.swift */,
+				154AEA9EBCCC97907D3D5FCD5EF1A49D /* HTTPHeaders.swift */,
+				3A9EF920E1E7DD55E2CBD864301B4290 /* HTTPMethod.swift */,
+				C68DF41905B09D7498BEEFB84A82EADB /* MultipartFormData.swift */,
+				F085B885A63C54BA466A97BA2C98CB70 /* MultipartUpload.swift */,
+				3B5205F85D59430875F435C21781F4F8 /* NetworkReachabilityManager.swift */,
+				A06E2D201F49FBFA2ECEFACA67E3F38F /* Notifications.swift */,
+				E5602B8198FE69A0C6C7C7187A8DA581 /* OperationQueue+Alamofire.swift */,
+				9E5F0A7F3A89581DA0E0BBC8B97C3ECE /* ParameterEncoder.swift */,
+				9D5ECCCA3143D79BABB40555FCFDDFCA /* ParameterEncoding.swift */,
+				22C1853C0FDFBFA36890B44F4216B5EB /* Protected.swift */,
+				A9A8E12CC9F275F8DBC85AE59C3F7747 /* RedirectHandler.swift */,
+				C1434241907609442DDED77FBFEC994D /* Request.swift */,
+				6FE7748F8722B8F834545874B7416339 /* RequestInterceptor.swift */,
+				F3BBC17A5D331F69BAB3885EC223CB18 /* RequestTaskMap.swift */,
+				DC0A4C8101C315E3CF1A165D4106D5ED /* Response.swift */,
+				5242AA2EE42645079AD74CBFDD7F5DB1 /* ResponseSerialization.swift */,
+				38858FF46068525E9D5BCAA209F8E7FB /* Result+Alamofire.swift */,
+				37050A7E1E8DB5F4C4A91F2C31B759EB /* RetryPolicy.swift */,
+				E315066A289F91A0ECEC42C9868700A5 /* ServerTrustEvaluation.swift */,
+				57262ADF72328B80AAC9D4AA87D4A9DE /* Session.swift */,
+				63DE5F6EBEA52C97CAEA869BA48AB8E6 /* SessionDelegate.swift */,
+				47C804755E239192F0E9F220ECC71E1C /* StringEncoding+Alamofire.swift */,
+				591B71864B21C6206CCB670ED63A9BE5 /* URLConvertible+URLRequestConvertible.swift */,
+				E1FC1C7E2BF638D23436B0352BA9C8E7 /* URLEncodedFormEncoder.swift */,
+				816EBB8F2CB01B070997C57D7E389636 /* URLRequest+Alamofire.swift */,
+				56846A4AD3A40089073888F9A20919DD /* URLSessionConfiguration+Alamofire.swift */,
+				7D38BB6F665A39FDE3F07A03251F7782 /* Validation.swift */,
+				B605505D12FDA7C2BA7968B0FA1C4124 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C020D4A8CE71F6D3583DD2483128FB30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				249BE7A44820C72FA38D813713687381 /* Accelerate.framework */,
+				B4B16321EA4CDC611696F88D59E81338 /* CFNetwork.framework */,
+				C08DAE4698FA2B209848FFE4694271C7 /* Foundation.framework */,
+				68E560948864839567941BA877FB2CEA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7975774E8F6486DDD347E7EA781EA1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE73AC2434A4129359930CA7BAF0CFD1 /* Alamofire */,
+				0F43069C71D9E4277FF39AF5388BEF8E /* DynamicBlurView */,
+				299B63446FFD9E68298874E9A1D63B57 /* MaterialActivityIndicator */,
+				F684A4ECAC2A7357AAD83E7F77326B98 /* PopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E5C7D2BAE4B189F381BD6041A1C474B2 /* Frameworks */,
+				C7975774E8F6486DDD347E7EA781EA1A /* Pods */,
+				F2A7E636C09C1AE1983789702E58838F /* Products */,
+				DDB903097EE38B9D0FABE86FBDE34393 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D81BD48864D498B565E756FD22596679 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F02DB99EDF6D436E75DE23E428A2733D /* DynamicBlurView.modulemap */,
+				51205D7C7A7AA46B396843C98DE3E0D6 /* DynamicBlurView-dummy.m */,
+				8D0A0834F9AEBA912281D7F345DA1647 /* DynamicBlurView-Info.plist */,
+				388F35882184C91A9463FBE662719362 /* DynamicBlurView-prefix.pch */,
+				6611DAB1ED0011A810EDF82C78251843 /* DynamicBlurView-umbrella.h */,
+				726C112949BC860107194C0198A5BD53 /* DynamicBlurView.debug.xcconfig */,
+				D9BF32B1EF80D9EC4D90B9A38D1E2B94 /* DynamicBlurView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		DDB903097EE38B9D0FABE86FBDE34393 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF03F0304890E1D69545A9CAE9BFB76 /* Pods-PayDayBank */,
+				0B148F6C6C2C999D545236B76AC0230C /* Pods-PayDayBankTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5C7D2BAE4B189F381BD6041A1C474B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494DB3E1089FA2524CE1137EF0F525AD /* DynamicBlurView.framework */,
+				C020D4A8CE71F6D3583DD2483128FB30 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF03F0304890E1D69545A9CAE9BFB76 /* Pods-PayDayBank */ = {
+			isa = PBXGroup;
+			children = (
+				D746BFE0BDCF9B586CFDE2567703EDBE /* Pods-PayDayBank.modulemap */,
+				4A78FB0B34B03E7102128F592983E49D /* Pods-PayDayBank-acknowledgements.markdown */,
+				64765A8D2A66E5C016AF354D29F38AE8 /* Pods-PayDayBank-acknowledgements.plist */,
+				F8CBAEC8054D14B2C474201EE9215D24 /* Pods-PayDayBank-dummy.m */,
+				A0A71D0DD205A2A89C66F5C447359F1B /* Pods-PayDayBank-frameworks.sh */,
+				A717934A2E0E40B6C23D7120725F0C2E /* Pods-PayDayBank-Info.plist */,
+				3FA1C3C747A5A3D7AD210483524702E6 /* Pods-PayDayBank-umbrella.h */,
+				D11F086FF969B24EB4F4FB393D9B0FAD /* Pods-PayDayBank.debug.xcconfig */,
+				F039090824689A069F921D58EF0FA2FB /* Pods-PayDayBank.release.xcconfig */,
+			);
+			name = "Pods-PayDayBank";
+			path = "Target Support Files/Pods-PayDayBank";
+			sourceTree = "<group>";
+		};
+		F2A7E636C09C1AE1983789702E58838F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
+				27C947111F05E50E155DACD7C1FEB0A7 /* MaterialActivityIndicator.framework */,
+				E5C4BD9FDDA1FACD415F4D6E20C1F110 /* Pods_PayDayBank.framework */,
+				6A0DA63DE461D085E29ED6EDB22152E3 /* Pods_PayDayBankTests.framework */,
+				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F684A4ECAC2A7357AAD83E7F77326B98 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				DF077A604754E675892F730E8B725967 /* InteractiveTransition.swift */,
+				DA1A09F0AE2C3E4A9704B430349E773F /* PopupDialog.swift */,
+				45A89495820F1F0ED4C464C2A08FA924 /* PopupDialog+Keyboard.swift */,
+				50291EA0B0512F638D797E047956FC93 /* PopupDialogButton.swift */,
+				03D4A13D89BFFA60412BB52AEB0344D9 /* PopupDialogContainerView.swift */,
+				3FE66DBF5C992F97EF3993D55A950972 /* PopupDialogDefaultButtons.swift */,
+				3393B724F7960F72CBF9957AB8789916 /* PopupDialogDefaultView.swift */,
+				6D4B18B3C55AF0412E424A48BBA872B9 /* PopupDialogDefaultViewController.swift */,
+				321104C34CF43EE31460C5C122425CF0 /* PopupDialogOverlayView.swift */,
+				8C2BE88E338DBAE9E05DBBB7855A5968 /* PresentationController.swift */,
+				7925C9CE6526A73B479D2052372074BF /* PresentationManager.swift */,
+				A4DB5C73FEE6832A0AB69C3ECC7EF4C7 /* TransitionAnimations.swift */,
+				96955D7E836EF305A6ABFFD8F7FBEBB8 /* TransitionAnimator.swift */,
+				394A27C6E9624B962A8EAC00CB1779A1 /* UIImageView+Calculations.swift */,
+				26E1D6350DEBDABF5489181CE240FCE5 /* UIView+Animations.swift */,
+				ADF4186AA9913DD7D35BCCD13370BF2A /* UIViewController+Visibility.swift */,
+				8A71C281C572094CE0A7B1544B44A560 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26A05F23671A7176635536CAFE0EEA0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD9E2294DD82B35A2C986F8C3F32609 /* MaterialActivityIndicator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B2725772C66A98BD34A67734FCE7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A06215522B29A126C1E9166136318C /* Pods-PayDayBankTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87353A53FB8FA55F6215AC51654C8C0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD91A0408709E5CE60C515237C69EEE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */,
+				37B464DA33104653FA64ACDD691F8A5F /* DynamicBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D98B5CF27865505B685BBAE67DBFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEC08390B45964F134031705400158F /* Pods-PayDayBank-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22E185E4D6B8B21FE1DAB78AF124D4C1 /* Pods-PayDayBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1126BB43260D5A8FB1A5E26CE30503FE /* Build configuration list for PBXNativeTarget "Pods-PayDayBank" */;
+			buildPhases = (
+				C8D98B5CF27865505B685BBAE67DBFC5 /* Headers */,
+				6FBE7ED14E5432B8287816D99D6A0DDA /* Sources */,
+				03A9F3B903556F6AC470A81915EB7808 /* Frameworks */,
+				C62EB9EE37BAFCDF6111A23D6C4A8A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BB957388F81EF9BC0F81018AAAA45B /* PBXTargetDependency */,
+				E66ACD25497A9F880A518E27827788CF /* PBXTargetDependency */,
+				14CBA088F63E3911552F990D5EA91BE6 /* PBXTargetDependency */,
+				F78262E3CA467302FF450754185DA22E /* PBXTargetDependency */,
+			);
+			name = "Pods-PayDayBank";
+			productName = "Pods-PayDayBank";
+			productReference = E5C4BD9FDDA1FACD415F4D6E20C1F110 /* Pods_PayDayBank.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57D7BFD121CFA8B22535F5601079DEA7 /* MaterialActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C52D49DDD037802EDCCEA97215F25CE /* Build configuration list for PBXNativeTarget "MaterialActivityIndicator" */;
+			buildPhases = (
+				26A05F23671A7176635536CAFE0EEA0D /* Headers */,
+				99316F3F444BB0BC8036272450A9D7D1 /* Sources */,
+				C03A729BB4EC525F91C37A8397A8D421 /* Frameworks */,
+				9B816E600CC5981A4F7D019AD9F18A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialActivityIndicator;
+			productName = MaterialActivityIndicator;
+			productReference = 27C947111F05E50E155DACD7C1FEB0A7 /* MaterialActivityIndicator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7508D556E6C0879FE57E3E574C62AE /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				87353A53FB8FA55F6215AC51654C8C0E /* Headers */,
+				45888BA4605C36782FAFEAC2D00E6CD3 /* Sources */,
+				74F47434089ED97AF48B711E9FADBF5C /* Frameworks */,
+				51F44C6F0DFF3643706A346EC44D61E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0F55816EC0A47F2B5F6C7CA549559A /* PBXTargetDependency */,
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00E17D5B863CDCF74DE6FA3A6C1300F /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
+			buildPhases = (
+				BD91A0408709E5CE60C515237C69EEE0 /* Headers */,
+				64D4719150E9FEC3CDDBB82624177D73 /* Sources */,
+				E65CA3D384260DCB7B4E58EA234ABEA5 /* Frameworks */,
+				4991E03E196B947CF16368E88975E33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = 86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83FD644AADB94403116710ACE072F6EE /* Pods-PayDayBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC1D6EC2A36DA9EF6FF41BC94C78C7C /* Build configuration list for PBXNativeTarget "Pods-PayDayBankTests" */;
+			buildPhases = (
+				2B5B2725772C66A98BD34A67734FCE7E /* Headers */,
+				2A7C53E669C8E33AA2EEE3B3C4E329C2 /* Sources */,
+				620651F2ADFE51A3412E5183D6849FCD /* Frameworks */,
+				BD114F95118798D50751F78A374D8569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ED64EC4FFC487841BEF4341ABEA88E /* PBXTargetDependency */,
+			);
+			name = "Pods-PayDayBankTests";
+			productName = "Pods-PayDayBankTests";
+			productReference = 6A0DA63DE461D085E29ED6EDB22152E3 /* Pods_PayDayBankTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				8070B01910C64B9AFD0DB550EDE38D6B /* Headers */,
+				2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */,
+				9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */,
+				9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F2A7E636C09C1AE1983789702E58838F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */,
+				57D7BFD121CFA8B22535F5601079DEA7 /* MaterialActivityIndicator */,
+				22E185E4D6B8B21FE1DAB78AF124D4C1 /* Pods-PayDayBank */,
+				83FD644AADB94403116710ACE072F6EE /* Pods-PayDayBankTests */,
+				6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4991E03E196B947CF16368E88975E33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F44C6F0DFF3643706A346EC44D61E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B816E600CC5981A4F7D019AD9F18A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD114F95118798D50751F78A374D8569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62EB9EE37BAFCDF6111A23D6C4A8A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7C53E669C8E33AA2EEE3B3C4E329C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCCD5C5B997F689AC1C12C41F0DF9C /* Pods-PayDayBankTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */,
+				C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */,
+				C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */,
+				72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */,
+				DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */,
+				ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */,
+				0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */,
+				27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */,
+				6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */,
+				91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */,
+				013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */,
+				45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */,
+				D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */,
+				19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */,
+				8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */,
+				0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */,
+				4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */,
+				D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */,
+				218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */,
+				666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */,
+				EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */,
+				6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */,
+				6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */,
+				C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */,
+				911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */,
+				66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */,
+				9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */,
+				47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */,
+				6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */,
+				381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */,
+				212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */,
+				9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */,
+				D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */,
+				F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45888BA4605C36782FAFEAC2D00E6CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */,
+				B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */,
+				73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */,
+				5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */,
+				F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */,
+				225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */,
+				A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */,
+				C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */,
+				030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */,
+				A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */,
+				D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */,
+				83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */,
+				7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */,
+				169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */,
+				0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */,
+				37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */,
+				D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D4719150E9FEC3CDDBB82624177D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60BE1FA828EA5AB3878B9908E2ACFDE /* BlurLayer.swift in Sources */,
+				019475E72F433C3E51895A3CD999822F /* CaptureQuality.swift in Sources */,
+				303898D9A1F232CB589A514C4EFFD644 /* CGContext+CGImage.swift in Sources */,
+				9CB73C2028D1E16DFE87289362792A4F /* CGImage+Accelerate.swift in Sources */,
+				7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */,
+				19C4DC14CC713DC68F954B6CC2F38DE7 /* DynamicBlurView.swift in Sources */,
+				535CD4014DCA990CEE8A4783486170FB /* TrackingMode.swift in Sources */,
+				7FF0649D3237A34599DA73541656009B /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBE7ED14E5432B8287816D99D6A0DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF82C93C791618203DD7FCD99785C5 /* Pods-PayDayBank-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99316F3F444BB0BC8036272450A9D7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950132A50FE878256E837157FEE04FC6 /* CAPropertyAnimation+Key.swift in Sources */,
+				4EE5593FF43056E5A20199B53B8D967A /* CGRect+Center.swift in Sources */,
+				3FEBEBFE1FDE343D06CCC99212B50FB3 /* CGSize+Min.swift in Sources */,
+				56AFE70BFC504C323DCD05DD2E518E3D /* MaterialActivityIndicator-dummy.m in Sources */,
+				211BB5EA8F35DACE721A93626DC5BC0C /* MaterialActivityIndicator.swift in Sources */,
+				292B4848A8721006695DB3654887738D /* MaterialActivityIndicatorAnimator.swift in Sources */,
+				22F60E0D3033E55AD990F94B567FE8C5 /* UIBezierPath+Circle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10BB957388F81EF9BC0F81018AAAA45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 14BBD52A87A17414ED8BF75756E024A0 /* PBXContainerItemProxy */;
+		};
+		14CBA088F63E3911552F990D5EA91BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialActivityIndicator;
+			target = 57D7BFD121CFA8B22535F5601079DEA7 /* MaterialActivityIndicator */;
+			targetProxy = 533AA69524D8C3E3410DDCA3FD062F47 /* PBXContainerItemProxy */;
+		};
+		7A0F55816EC0A47F2B5F6C7CA549559A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = 2763FCA98104FEE93EB4E54D32DDF454 /* PBXContainerItemProxy */;
+		};
+		B6ED64EC4FFC487841BEF4341ABEA88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayDayBank";
+			target = 22E185E4D6B8B21FE1DAB78AF124D4C1 /* Pods-PayDayBank */;
+			targetProxy = C8551CE8722ED4F1AF4426B22E9EC7C2 /* PBXContainerItemProxy */;
+		};
+		E66ACD25497A9F880A518E27827788CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = 174400A4BE44E1732E5E003DBE3265F1 /* PBXContainerItemProxy */;
+		};
+		F78262E3CA467302FF450754185DA22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = 00C9AF6212F6D5A4C8EA1809921E0442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26D178F14584AAF0691A7A2B0214F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F039090824689A069F921D58EF0FA2FB /* Pods-PayDayBank.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		420A50322D342ACF5AA5DFA568880684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11F086FF969B24EB4F4FB393D9B0FAD /* Pods-PayDayBank.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48FD2B4E815CEB933B18D313E9E9EF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8980F8875143A3A94CB0DAC9A8C8182E /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D8843CC5C7802913B30BA0DBC987ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6509A87F4B6A1C93423C96B332354B /* PopupDialog.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69B3289497D79A2FDCC1DE129DCEB543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FB87B8498339633B1405591C416A90 /* MaterialActivityIndicator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator.modulemap";
+				PRODUCT_MODULE_NAME = MaterialActivityIndicator;
+				PRODUCT_NAME = MaterialActivityIndicator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9C50A948ECC705F64CE650383533FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE1431E4F30D01368F3A3DE5C97296A /* PopupDialog.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BABF0987CA8FFA0F786F514FC623BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BF32B1EF80D9EC4D90B9A38D1E2B94 /* DynamicBlurView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		946950A29E0482BD10DDB33C50B53747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36164C5FE65A39026BC71A2194D226F /* Pods-PayDayBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99B6ECDBBFA1100C7AD86C54AA61C204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35B95F4FACDF1403F71B75D279865C2 /* MaterialActivityIndicator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialActivityIndicator/MaterialActivityIndicator.modulemap";
+				PRODUCT_MODULE_NAME = MaterialActivityIndicator;
+				PRODUCT_NAME = MaterialActivityIndicator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA4EB950241B6AFED3C083B63817610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726C112949BC860107194C0198A5BD53 /* DynamicBlurView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E369597D49F8DB69F5A813C0CC2F9CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D94C414D1A42667B479FE60367A99F /* Pods-PayDayBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E73BFB7433831CF292FADF6B2CB7AC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D9019BDCB68B367E0EA958217C1E70 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC1D6EC2A36DA9EF6FF41BC94C78C7C /* Build configuration list for PBXNativeTarget "Pods-PayDayBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946950A29E0482BD10DDB33C50B53747 /* Debug */,
+				E369597D49F8DB69F5A813C0CC2F9CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1126BB43260D5A8FB1A5E26CE30503FE /* Build configuration list for PBXNativeTarget "Pods-PayDayBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420A50322D342ACF5AA5DFA568880684 /* Debug */,
+				26D178F14584AAF0691A7A2B0214F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C52D49DDD037802EDCCEA97215F25CE /* Build configuration list for PBXNativeTarget "MaterialActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B6ECDBBFA1100C7AD86C54AA61C204 /* Debug */,
+				69B3289497D79A2FDCC1DE129DCEB543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73BFB7433831CF292FADF6B2CB7AC3B /* Debug */,
+				48FD2B4E815CEB933B18D313E9E9EF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00E17D5B863CDCF74DE6FA3A6C1300F /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4EB950241B6AFED3C083B63817610B /* Debug */,
+				8BABF0987CA8FFA0F786F514FC623BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7508D556E6C0879FE57E3E574C62AE /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9C50A948ECC705F64CE650383533FE /* Debug */,
+				4D8843CC5C7802913B30BA0DBC987ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

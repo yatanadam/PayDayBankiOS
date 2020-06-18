@@ -1,0 +1,1759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3E2158EE185972D6778FBF /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C1362EE3EBADE7B643D589 /* Pods_PayDayBank.framework */; };
+		2148DD18249A4C2D00CAAC38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
+		2148DD19249A4C2D00CAAC38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
+		2148DD1A249A4C2D00CAAC38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
+		2148DD1B249A4C2D00CAAC38 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
+		2148DD1C249A4C2D00CAAC38 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7924991ACC003E7E7B /* LoginService.swift */; };
+		2148DD1D249A4C2D00CAAC38 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D732498F30D003E7E7B /* ActivityIndicator.swift */; };
+		2148DD1E249A4C2D00CAAC38 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
+		2148DD1F249A4C2D00CAAC38 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
+		2148DD20249A4C2D00CAAC38 /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */; };
+		2148DD21249A4C2D00CAAC38 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
+		2148DD22249A4C2D00CAAC38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D662498CAC6003E7E7B /* SceneDelegate.swift */; };
+		2148DD23249A4C2D00CAAC38 /* ServiceAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */; };
+		2148DD24249A4C2D00CAAC38 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
+		2148DD25249A4C2D00CAAC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
+		2148DD26249A4C2D00CAAC38 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */; };
+		2148DD27249A4C2D00CAAC38 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D402498BEDE003E7E7B /* DashboardView.swift */; };
+		2148DD28249A4C2D00CAAC38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
+		2148DD29249A4C2D00CAAC38 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1E2498BD54003E7E7B /* SignUpView.swift */; };
+		2148DD2A249A4C2D00CAAC38 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3E2498BED4003E7E7B /* DashboardModel.swift */; };
+		2148DD2B249A4C2D00CAAC38 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D102498BCAD003E7E7B /* Service.swift */; };
+		2148DD2C249A4C2D00CAAC38 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D712498F0B3003E7E7B /* PopUp.swift */; };
+		2148DD2D249A4C2D00CAAC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
+		2148DD2E249A4C2D00CAAC38 /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
+		2148DD2F249A4C2D00CAAC38 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7E24991CD5003E7E7B /* CustomerModel.swift */; };
+		2148DD30249A4C2D00CAAC38 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
+		2148DD31249A4C2D00CAAC38 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
+		2148DD32249A4C2D00CAAC38 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8024991D71003E7E7B /* AccountModel.swift */; };
+		2148DD33249A4C2D00CAAC38 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8224991D93003E7E7B /* TransactionModel.swift */; };
+		2148DD34249A4C2D00CAAC38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0C2498BC22003E7E7B /* BaseViewController.swift */; };
+		2148DD35249A4C2D00CAAC38 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */; };
+		2148DD36249A4C2D00CAAC38 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D84249922A4003E7E7B /* ResponseHandler.swift */; };
+		2148DD37249A4C2D00CAAC38 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
+		2148DD38249A4C2D00CAAC38 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
+		2148DD3C249A4C2D00CAAC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */; };
+		2148DD3D249A4C2D00CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
+		2148DD3E249A4C2D00CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
+		2148DD40249A4C2D00CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
+		2148DD41249A4C2D00CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
+		2148DD4B249A4CC700CAAC38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
+		2148DD4C249A4CC700CAAC38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
+		2148DD4D249A4CC700CAAC38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
+		2148DD4E249A4CC700CAAC38 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
+		2148DD4F249A4CC700CAAC38 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7924991ACC003E7E7B /* LoginService.swift */; };
+		2148DD50249A4CC700CAAC38 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D732498F30D003E7E7B /* ActivityIndicator.swift */; };
+		2148DD51249A4CC700CAAC38 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
+		2148DD52249A4CC700CAAC38 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
+		2148DD53249A4CC700CAAC38 /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */; };
+		2148DD54249A4CC700CAAC38 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
+		2148DD55249A4CC700CAAC38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D662498CAC6003E7E7B /* SceneDelegate.swift */; };
+		2148DD56249A4CC700CAAC38 /* ServiceAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */; };
+		2148DD57249A4CC700CAAC38 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
+		2148DD58249A4CC700CAAC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
+		2148DD59249A4CC700CAAC38 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */; };
+		2148DD5A249A4CC700CAAC38 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D402498BEDE003E7E7B /* DashboardView.swift */; };
+		2148DD5B249A4CC700CAAC38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
+		2148DD5C249A4CC700CAAC38 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1E2498BD54003E7E7B /* SignUpView.swift */; };
+		2148DD5D249A4CC700CAAC38 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3E2498BED4003E7E7B /* DashboardModel.swift */; };
+		2148DD5E249A4CC700CAAC38 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D102498BCAD003E7E7B /* Service.swift */; };
+		2148DD5F249A4CC700CAAC38 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D712498F0B3003E7E7B /* PopUp.swift */; };
+		2148DD60249A4CC700CAAC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
+		2148DD61249A4CC700CAAC38 /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
+		2148DD62249A4CC700CAAC38 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7E24991CD5003E7E7B /* CustomerModel.swift */; };
+		2148DD63249A4CC700CAAC38 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
+		2148DD64249A4CC700CAAC38 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
+		2148DD65249A4CC700CAAC38 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8024991D71003E7E7B /* AccountModel.swift */; };
+		2148DD66249A4CC700CAAC38 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8224991D93003E7E7B /* TransactionModel.swift */; };
+		2148DD67249A4CC700CAAC38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0C2498BC22003E7E7B /* BaseViewController.swift */; };
+		2148DD68249A4CC700CAAC38 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */; };
+		2148DD69249A4CC700CAAC38 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D84249922A4003E7E7B /* ResponseHandler.swift */; };
+		2148DD6A249A4CC700CAAC38 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
+		2148DD6B249A4CC700CAAC38 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
+		2148DD6F249A4CC700CAAC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */; };
+		2148DD70249A4CC700CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
+		2148DD71249A4CC700CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
+		2148DD73249A4CC700CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
+		2148DD74249A4CC700CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
+		2148DD7E249A4CD100CAAC38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
+		2148DD7F249A4CD100CAAC38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
+		2148DD80249A4CD100CAAC38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
+		2148DD81249A4CD100CAAC38 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
+		2148DD82249A4CD100CAAC38 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7924991ACC003E7E7B /* LoginService.swift */; };
+		2148DD83249A4CD100CAAC38 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D732498F30D003E7E7B /* ActivityIndicator.swift */; };
+		2148DD84249A4CD100CAAC38 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
+		2148DD85249A4CD100CAAC38 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
+		2148DD86249A4CD100CAAC38 /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */; };
+		2148DD87249A4CD100CAAC38 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
+		2148DD88249A4CD100CAAC38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D662498CAC6003E7E7B /* SceneDelegate.swift */; };
+		2148DD89249A4CD100CAAC38 /* ServiceAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */; };
+		2148DD8A249A4CD100CAAC38 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
+		2148DD8B249A4CD100CAAC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
+		2148DD8C249A4CD100CAAC38 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */; };
+		2148DD8D249A4CD100CAAC38 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D402498BEDE003E7E7B /* DashboardView.swift */; };
+		2148DD8E249A4CD100CAAC38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
+		2148DD8F249A4CD100CAAC38 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1E2498BD54003E7E7B /* SignUpView.swift */; };
+		2148DD90249A4CD100CAAC38 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3E2498BED4003E7E7B /* DashboardModel.swift */; };
+		2148DD91249A4CD100CAAC38 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D102498BCAD003E7E7B /* Service.swift */; };
+		2148DD92249A4CD100CAAC38 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D712498F0B3003E7E7B /* PopUp.swift */; };
+		2148DD93249A4CD100CAAC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
+		2148DD94249A4CD100CAAC38 /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
+		2148DD95249A4CD100CAAC38 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7E24991CD5003E7E7B /* CustomerModel.swift */; };
+		2148DD96249A4CD100CAAC38 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
+		2148DD97249A4CD100CAAC38 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
+		2148DD98249A4CD100CAAC38 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8024991D71003E7E7B /* AccountModel.swift */; };
+		2148DD99249A4CD100CAAC38 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8224991D93003E7E7B /* TransactionModel.swift */; };
+		2148DD9A249A4CD100CAAC38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0C2498BC22003E7E7B /* BaseViewController.swift */; };
+		2148DD9B249A4CD100CAAC38 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */; };
+		2148DD9C249A4CD100CAAC38 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D84249922A4003E7E7B /* ResponseHandler.swift */; };
+		2148DD9D249A4CD100CAAC38 /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
+		2148DD9E249A4CD100CAAC38 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
+		2148DDA0249A4CD100CAAC38 /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C1362EE3EBADE7B643D589 /* Pods_PayDayBank.framework */; };
+		2148DDA2249A4CD100CAAC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */; };
+		2148DDA3249A4CD100CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
+		2148DDA4249A4CD100CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
+		2148DDA6249A4CD100CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
+		2148DDA7249A4CD100CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
+		2148DDBF249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+		2148DDC0249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+		2148DDC1249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+		2148DDC2249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+		2148DE00249ACAA000CAAC38 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFE249ACAA000CAAC38 /* TransactionService.swift */; };
+		2148DE01249ACAA000CAAC38 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFE249ACAA000CAAC38 /* TransactionService.swift */; };
+		2148DE02249ACAA000CAAC38 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFE249ACAA000CAAC38 /* TransactionService.swift */; };
+		2148DE03249ACAA000CAAC38 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFE249ACAA000CAAC38 /* TransactionService.swift */; };
+		2148DE04249ACAA000CAAC38 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFF249ACAA000CAAC38 /* DashboardService.swift */; };
+		2148DE05249ACAA000CAAC38 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFF249ACAA000CAAC38 /* DashboardService.swift */; };
+		2148DE06249ACAA000CAAC38 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFF249ACAA000CAAC38 /* DashboardService.swift */; };
+		2148DE07249ACAA000CAAC38 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFF249ACAA000CAAC38 /* DashboardService.swift */; };
+		2148DE0A249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */; };
+		2148DE0B249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */; };
+		2148DE0C249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */; };
+		2148DE0D249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */; };
+		2148DE19249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */; };
+		2148DE1A249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */; };
+		2148DE1B249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */; };
+		2148DE1C249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */; };
+		2148DE25249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */; };
+		2148DE26249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */; };
+		2148DE27249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */; };
+		2148DE28249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */; };
+		2148DE29249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
+		2148DE2A249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
+		2148DE2B249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
+		2148DE2C249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
+		84B051F12C5B852659C4C773 /* Pods_PayDayBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F065C2D4C009B1F7FA53365C /* Pods_PayDayBankTests.framework */; };
+		CB148CDE2498B686003E7E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
+		CB148CE22498B686003E7E7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
+		CB148CE52498B686003E7E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
+		CB148CE72498B687003E7E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
+		CB148CEA2498B687003E7E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */; };
+		CB148D052498B9BB003E7E7B /* PayDayBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D042498B9BB003E7E7B /* PayDayBankTests.swift */; };
+		CB148D0D2498BC22003E7E7B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0C2498BC22003E7E7B /* BaseViewController.swift */; };
+		CB148D0F2498BC5D003E7E7B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
+		CB148D112498BCAD003E7E7B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D102498BCAD003E7E7B /* Service.swift */; };
+		CB148D1B2498BD10003E7E7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
+		CB148D1D2498BD18003E7E7B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
+		CB148D1F2498BD54003E7E7B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1E2498BD54003E7E7B /* SignUpView.swift */; };
+		CB148D212498BD5D003E7E7B /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
+		CB148D232498BD6F003E7E7B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
+		CB148D252498BD7C003E7E7B /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
+		CB148D2B2498BDB3003E7E7B /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
+		CB148D2D2498BDC4003E7E7B /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
+		CB148D2F2498BDD4003E7E7B /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
+		CB148D312498BE0E003E7E7B /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
+		CB148D332498BE1E003E7E7B /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
+		CB148D392498BE8B003E7E7B /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
+		CB148D3B2498BEB8003E7E7B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
+		CB148D3D2498BECB003E7E7B /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
+		CB148D3F2498BED4003E7E7B /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3E2498BED4003E7E7B /* DashboardModel.swift */; };
+		CB148D412498BEDE003E7E7B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D402498BEDE003E7E7B /* DashboardView.swift */; };
+		CB148D432498C50B003E7E7B /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
+		CB148D452498C517003E7E7B /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
+		CB148D672498CAC6003E7E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D662498CAC6003E7E7B /* SceneDelegate.swift */; };
+		CB148D6C2498EE42003E7E7B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */; };
+		CB148D6E2498EE4C003E7E7B /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */; };
+		CB148D722498F0B3003E7E7B /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D712498F0B3003E7E7B /* PopUp.swift */; };
+		CB148D742498F30D003E7E7B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D732498F30D003E7E7B /* ActivityIndicator.swift */; };
+		CB148D7A24991ACC003E7E7B /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7924991ACC003E7E7B /* LoginService.swift */; };
+		CB148D7D24991BE0003E7E7B /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */; };
+		CB148D7F24991CD5003E7E7B /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7E24991CD5003E7E7B /* CustomerModel.swift */; };
+		CB148D8124991D71003E7E7B /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8024991D71003E7E7B /* AccountModel.swift */; };
+		CB148D8324991D93003E7E7B /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8224991D93003E7E7B /* TransactionModel.swift */; };
+		CB148D85249922A4003E7E7B /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D84249922A4003E7E7B /* ResponseHandler.swift */; };
+		CB148D8724992BFC003E7E7B /* ServiceAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */; };
+		CB3A74EB249A9C6300EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
+		CB3A74ED249AA53800EB08CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A74EC249AA53800EB08CA /* SignUp.storyboard */; };
+		CB3A74EF249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */; };
+		CB3A74F0249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */; };
+		CB3A74F1249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */; };
+		CB3A74F2249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */; };
+		CB3A74F4249AABA100EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
+		CB3A74F5249AABA100EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
+		CB3A74F6249AABA100EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
+		CB3A74F7249AABA100EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
+		CB3A74FA249AB64300EB08CA /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F9249AB64300EB08CA /* LoginTests.swift */; };
+		CB3A74FB249AB74D00EB08CA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
+		CB3A74FD249ABBD000EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */; };
+		CB3A74FE249ABBD000EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3A7501249ABBD700EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */; };
+		CB3A7502249ABBD700EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3A7505249ABBDC00EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */; };
+		CB3A7506249ABBDC00EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB3A750A249ABCDF00EB08CA /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
+		CB3A750B249ABCE700EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
+		CB3A750C249ABCE700EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
+		CB3A750D249ABCE700EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
+		CB3A750E249ABCE800EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
+		CB3A750F249ABCEC00EB08CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0C2498BC22003E7E7B /* BaseViewController.swift */; };
+		CB3A7510249ABCEE00EB08CA /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
+		CB3A7511249ABCF300EB08CA /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D84249922A4003E7E7B /* ResponseHandler.swift */; };
+		CB3A7512249ABCF600EB08CA /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7924991ACC003E7E7B /* LoginService.swift */; };
+		CB3A7513249ABCF900EB08CA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D102498BCAD003E7E7B /* Service.swift */; };
+		CB3A7514249ABCFC00EB08CA /* ServiceAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */; };
+		CB3A7515249ABCFF00EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
+		CB3A7516249ABD0100EB08CA /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */; };
+		CB3A7517249ABD0300EB08CA /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D7E24991CD5003E7E7B /* CustomerModel.swift */; };
+		CB3A7518249ABD0600EB08CA /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8024991D71003E7E7B /* AccountModel.swift */; };
+		CB3A7519249ABD0900EB08CA /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D8224991D93003E7E7B /* TransactionModel.swift */; };
+		CB3A751A249ABD0B00EB08CA /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */; };
+		CB3A751B249ABD1100EB08CA /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */; };
+		CB3A751C249ABD1500EB08CA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */; };
+		CB3A751D249ABD1800EB08CA /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D712498F0B3003E7E7B /* PopUp.swift */; };
+		CB3A751E249ABD1C00EB08CA /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D732498F30D003E7E7B /* ActivityIndicator.swift */; };
+		CB3A751F249ABD2500EB08CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D662498CAC6003E7E7B /* SceneDelegate.swift */; };
+		CB3A7520249ABD2700EB08CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
+		CB3A7521249ABD2A00EB08CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */; };
+		CB3A7522249ABD2C00EB08CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
+		CB3A7523249ABD3000EB08CA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
+		CB3A7524249ABD3200EB08CA /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
+		CB3A7525249ABD3800EB08CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
+		CB3A7526249ABD3C00EB08CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A74EC249AA53800EB08CA /* SignUp.storyboard */; };
+		CB3A7527249ABD3C00EB08CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A74EC249AA53800EB08CA /* SignUp.storyboard */; };
+		CB3A7528249ABD3D00EB08CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A74EC249AA53800EB08CA /* SignUp.storyboard */; };
+		CB3A7529249ABD3D00EB08CA /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A74EC249AA53800EB08CA /* SignUp.storyboard */; };
+		CB3A752A249ABD4100EB08CA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1E2498BD54003E7E7B /* SignUpView.swift */; };
+		CB3A752B249ABD4500EB08CA /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
+		CB3A752C249ABD4800EB08CA /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
+		CB3A752D249ABD4B00EB08CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
+		CB3A752E249ABD4F00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
+		CB3A752F249ABD5400EB08CA /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
+		CB3A7530249ABD5700EB08CA /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
+		CB3A7531249ABD5A00EB08CA /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
+		CB3A7532249ABD5D00EB08CA /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
+		CB3A7533249ABD6100EB08CA /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
+		CB3A7534249ABD6400EB08CA /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D402498BEDE003E7E7B /* DashboardView.swift */; };
+		CB3A7535249ABD6800EB08CA /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3E2498BED4003E7E7B /* DashboardModel.swift */; };
+		CB3A7536249ABD6C00EB08CA /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
+		CB3A7537249ABD6F00EB08CA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
+		CB3A7538249ABD7E00EB08CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3A7508249ABCBC00EB08CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB148CD22498B686003E7E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2148DD7B249A4CD100CAAC38;
+			remoteInfo = PayDayBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB3A74FF249ABBD000EB08CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB3A74FE249ABBD000EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A7503249ABBD700EB08CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB3A7502249ABBD700EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A7507249ABBDC00EB08CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB3A7506249ABBDC00EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2148DD46249A4C2D00CAAC38 /* PayDayBankDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDayBankDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148DD47249A4C2E00CAAC38 /* PayDayBank copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PayDayBank copy-Info.plist"; path = "/Users/banksy/Desktop/PayDay/PayDayBank/PayDayBank/PayDayBank copy-Info.plist"; sourceTree = "<absolute>"; };
+		2148DD79249A4CC700CAAC38 /* PayDayBankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDayBankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148DD7A249A4CC800CAAC38 /* PayDayBankDev copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PayDayBankDev copy-Info.plist"; path = "/Users/banksy/Desktop/PayDay/PayDayBank/PayDayBank/PayDayBankDev copy-Info.plist"; sourceTree = "<absolute>"; };
+		2148DDAC249A4CD100CAAC38 /* PayDayBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDayBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148DDAD249A4CD200CAAC38 /* PayDayBankTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PayDayBankTest copy-Info.plist"; path = "/Users/banksy/Desktop/PayDay/PayDayBank/PayDayBank/PayDayBankTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		2148DDBE249A5ACF00CAAC38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2148DDFE249ACAA000CAAC38 /* TransactionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		2148DDFF249ACAA000CAAC38 /* DashboardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
+		2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListRequestModel.swift; sourceTree = "<group>"; };
+		2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsRequestModel.swift; sourceTree = "<group>"; };
+		2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionTableViewCell.swift; path = PayDayBank/Core/UI/TransactionTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TransactionTableViewCell.xib; path = PayDayBank/Core/UI/TransactionTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		34C1362EE3EBADE7B643D589 /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF30487AB9B0A8625446D08 /* Pods-PayDayBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDayBankTests.release.xcconfig"; path = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		98FC9CB6B57F131B448EE7C4 /* Pods-PayDayBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDayBank.release.xcconfig"; path = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank.release.xcconfig"; sourceTree = "<group>"; };
+		AC75FFB42929EEC9B6A75C3C /* Pods-PayDayBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDayBank.debug.xcconfig"; path = "Target Support Files/Pods-PayDayBank/Pods-PayDayBank.debug.xcconfig"; sourceTree = "<group>"; };
+		CB148CDA2498B686003E7E7B /* PayDayBankLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDayBankLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB148CDD2498B686003E7E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB148CE12498B686003E7E7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB148CE42498B686003E7E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB148CE62498B687003E7E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB148CE92498B687003E7E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB148CEB2498B687003E7E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB148D022498B9BB003E7E7B /* PayDayBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayDayBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB148D042498B9BB003E7E7B /* PayDayBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDayBankTests.swift; sourceTree = "<group>"; };
+		CB148D062498B9BB003E7E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB148D0C2498BC22003E7E7B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		CB148D102498BCAD003E7E7B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CB148D1A2498BD10003E7E7B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CB148D1C2498BD18003E7E7B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		CB148D1E2498BD54003E7E7B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CB148D202498BD5D003E7E7B /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		CB148D222498BD6F003E7E7B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransactionList.storyboard; sourceTree = "<group>"; };
+		CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenter.swift; sourceTree = "<group>"; };
+		CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
+		CB148D302498BE0E003E7E7B /* TransactionListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModel.swift; sourceTree = "<group>"; };
+		CB148D322498BE1E003E7E7B /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		CB148D382498BE8B003E7E7B /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		CB148D3E2498BED4003E7E7B /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		CB148D402498BEDE003E7E7B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CB148D422498C50B003E7E7B /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
+		CB148D662498CAC6003E7E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
+		CB148D712498F0B3003E7E7B /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		CB148D732498F30D003E7E7B /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CB148D7924991ACC003E7E7B /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		CB148D7E24991CD5003E7E7B /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		CB148D8024991D71003E7E7B /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		CB148D8224991D93003E7E7B /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		CB148D84249922A4003E7E7B /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPICaller.swift; sourceTree = "<group>"; };
+		CB3A74EA249A9C6300EB08CA /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		CB3A74EC249AA53800EB08CA /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		CB3A74F3249AABA100EB08CA /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		CB3A74F9249AB64300EB08CA /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D272B18188F25895572828C9 /* Pods-PayDayBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDayBankTests.debug.xcconfig"; path = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F065C2D4C009B1F7FA53365C /* Pods_PayDayBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayDayBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2148DD39249A4C2D00CAAC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A7501249ABBD700EB08CA /* Pods_PayDayBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DD6C249A4CC700CAAC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A74FD249ABBD000EB08CA /* Pods_PayDayBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DD9F249A4CD100CAAC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DDA0249A4CD100CAAC38 /* Pods_PayDayBank.framework in Frameworks */,
+				0E3E2158EE185972D6778FBF /* Pods_PayDayBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148CD72498B686003E7E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A7505249ABBDC00EB08CA /* Pods_PayDayBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148CFF2498B9BB003E7E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B051F12C5B852659C4C773 /* Pods_PayDayBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2148DDBD249A523D00CAAC38 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2148DDBE249A5ACF00CAAC38 /* Constants.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2148DE22249ACF2300CAAC38 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */,
+				2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4149ADFC607F0F0BF402BD43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */,
+				CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */,
+				CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */,
+				34C1362EE3EBADE7B643D589 /* Pods_PayDayBank.framework */,
+				F065C2D4C009B1F7FA53365C /* Pods_PayDayBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52359FC63239C6B7D6C92D1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D272B18188F25895572828C9 /* Pods-PayDayBankTests.debug.xcconfig */,
+				8EF30487AB9B0A8625446D08 /* Pods-PayDayBankTests.release.xcconfig */,
+				AC75FFB42929EEC9B6A75C3C /* Pods-PayDayBank.debug.xcconfig */,
+				98FC9CB6B57F131B448EE7C4 /* Pods-PayDayBank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB148CD12498B686003E7E7B = {
+			isa = PBXGroup;
+			children = (
+				CB148CDC2498B686003E7E7B /* PayDayBank */,
+				CB148D032498B9BB003E7E7B /* PayDayBankTests */,
+				CB148CDB2498B686003E7E7B /* Products */,
+				52359FC63239C6B7D6C92D1D /* Pods */,
+				4149ADFC607F0F0BF402BD43 /* Frameworks */,
+				2148DD47249A4C2E00CAAC38 /* PayDayBank copy-Info.plist */,
+				2148DD7A249A4CC800CAAC38 /* PayDayBankDev copy-Info.plist */,
+				2148DDAD249A4CD200CAAC38 /* PayDayBankTest copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CB148CDB2498B686003E7E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CDA2498B686003E7E7B /* PayDayBankLocal.app */,
+				CB148D022498B9BB003E7E7B /* PayDayBankTests.xctest */,
+				2148DD46249A4C2D00CAAC38 /* PayDayBankDev.app */,
+				2148DD79249A4CC700CAAC38 /* PayDayBankTest.app */,
+				2148DDAC249A4CD100CAAC38 /* PayDayBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB148CDC2498B686003E7E7B /* PayDayBank */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CEB2498B687003E7E7B /* Info.plist */,
+				2148DDBD249A523D00CAAC38 /* Configuration */,
+				CB148CF22498B74A003E7E7B /* Core */,
+				CB148CF12498B73C003E7E7B /* Resource */,
+				CB148CF62498B7B6003E7E7B /* Feature */,
+			);
+			path = PayDayBank;
+			sourceTree = "<group>";
+		};
+		CB148CF12498B73C003E7E7B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CE62498B687003E7E7B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB148CF22498B74A003E7E7B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A74E9249A9C5500EB08CA /* Session */,
+				CB3A74E7249A9B6E00EB08CA /* Module */,
+				CB85599924994BAB000FEF4A /* Network */,
+				CB148CF32498B74F003E7E7B /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CB148CF32498B74F003E7E7B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2148DE22249ACF2300CAAC38 /* Cell */,
+				CB148D6A2498EE32003E7E7B /* Component */,
+				CB148D692498EDE3003E7E7B /* PopUp */,
+				CB148D682498EDD3003E7E7B /* ActivityIndicator */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CB148CF42498B755003E7E7B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D84249922A4003E7E7B /* ResponseHandler.swift */,
+				CB148D102498BCAD003E7E7B /* Service.swift */,
+				CB148D7924991ACC003E7E7B /* LoginService.swift */,
+				CB148D8624992BFC003E7E7B /* ServiceAPICaller.swift */,
+				CB3A74F3249AABA100EB08CA /* SignUpService.swift */,
+				2148DDFF249ACAA000CAAC38 /* DashboardService.swift */,
+				2148DDFE249ACAA000CAAC38 /* TransactionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CB148CF62498B7B6003E7E7B /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CFD2498B919003E7E7B /* Launch */,
+				CB148CF72498B7F5003E7E7B /* Login */,
+				CB148CF82498B7FC003E7E7B /* SignUp */,
+				CB148CFA2498B835003E7E7B /* TransactionList */,
+				CB148CF92498B807003E7E7B /* Dashboard */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CB148CF72498B7F5003E7E7B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CE32498B686003E7E7B /* Main.storyboard */,
+				CB148D172498BCEE003E7E7B /* View */,
+				CB148D162498BCE9003E7E7B /* Model */,
+				CB148CFC2498B8B5003E7E7B /* Presenter */,
+				CB148CFB2498B8AC003E7E7B /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CB148CF82498B7FC003E7E7B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A74EC249AA53800EB08CA /* SignUp.storyboard */,
+				CB148D152498BCDD003E7E7B /* View */,
+				CB148D142498BCD4003E7E7B /* Model */,
+				CB148D122498BCBC003E7E7B /* Presenter */,
+				CB148D132498BCC4003E7E7B /* ViewController */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CB148CF92498B807003E7E7B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D382498BE8B003E7E7B /* Dashboard.storyboard */,
+				CB148D342498BE2A003E7E7B /* View */,
+				CB148D352498BE30003E7E7B /* Model */,
+				CB148D362498BE37003E7E7B /* Presenter */,
+				CB148D372498BE3C003E7E7B /* ViewController */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CB148CFA2498B835003E7E7B /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */,
+				CB148D262498BD89003E7E7B /* View */,
+				CB148D272498BD8F003E7E7B /* Model */,
+				CB148D292498BD9A003E7E7B /* Presenter */,
+				CB148D282498BD94003E7E7B /* ViewController */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		CB148CFB2498B8AC003E7E7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CE12498B686003E7E7B /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB148CFC2498B8B5003E7E7B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CB148CFD2498B919003E7E7B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D662498CAC6003E7E7B /* SceneDelegate.swift */,
+				CB148CDD2498B686003E7E7B /* AppDelegate.swift */,
+				CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		CB148D032498B9BB003E7E7B /* PayDayBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A74F8249AB62400EB08CA /* LoginTests */,
+				CB148D042498B9BB003E7E7B /* PayDayBankTests.swift */,
+				CB148D062498B9BB003E7E7B /* Info.plist */,
+			);
+			path = PayDayBankTests;
+			sourceTree = "<group>";
+		};
+		CB148D122498BCBC003E7E7B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CB148D132498BCC4003E7E7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D222498BD6F003E7E7B /* SignUpViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB148D142498BCD4003E7E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D202498BD5D003E7E7B /* SignUpModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB148D152498BCDD003E7E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D1E2498BD54003E7E7B /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB148D162498BCE9003E7E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D1C2498BD18003E7E7B /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB148D172498BCEE003E7E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D1A2498BD10003E7E7B /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB148D262498BD89003E7E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D322498BE1E003E7E7B /* TransactionListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB148D272498BD8F003E7E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D302498BE0E003E7E7B /* TransactionListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB148D282498BD94003E7E7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB148D292498BD9A003E7E7B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CB148D342498BE2A003E7E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D402498BEDE003E7E7B /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB148D352498BE30003E7E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D3E2498BED4003E7E7B /* DashboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB148D362498BE37003E7E7B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CB148D372498BE3C003E7E7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB148D682498EDD3003E7E7B /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D732498F30D003E7E7B /* ActivityIndicator.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		CB148D692498EDE3003E7E7B /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D712498F0B3003E7E7B /* PopUp.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		CB148D6A2498EE32003E7E7B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D702498EE59003E7E7B /* PrimaryTextField */,
+				CB148D6F2498EE51003E7E7B /* PrimaryButton */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CB148D6F2498EE51003E7E7B /* PrimaryButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D6B2498EE42003E7E7B /* PrimaryButton.swift */,
+			);
+			path = PrimaryButton;
+			sourceTree = "<group>";
+		};
+		CB148D702498EE59003E7E7B /* PrimaryTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D6D2498EE4C003E7E7B /* PrimaryTextField.swift */,
+			);
+			path = PrimaryTextField;
+			sourceTree = "<group>";
+		};
+		CB148D7B24991B6A003E7E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */,
+				2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */,
+				CB148D7C24991BE0003E7E7B /* LoginRequestModel.swift */,
+				CB148D7E24991CD5003E7E7B /* CustomerModel.swift */,
+				CB148D8024991D71003E7E7B /* AccountModel.swift */,
+				CB148D8224991D93003E7E7B /* TransactionModel.swift */,
+				CB3A74EE249AAB6000EB08CA /* SignUpRequestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB3A74E7249A9B6E00EB08CA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				CB148D0C2498BC22003E7E7B /* BaseViewController.swift */,
+				CB148D422498C50B003E7E7B /* BasePresenter.swift */,
+				CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		CB3A74E9249A9C5500EB08CA /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A74EA249A9C6300EB08CA /* SessionManager.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		CB3A74F8249AB62400EB08CA /* LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A74F9249AB64300EB08CA /* LoginTests.swift */,
+			);
+			path = LoginTests;
+			sourceTree = "<group>";
+		};
+		CB85599924994BAB000FEF4A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CB148CF42498B755003E7E7B /* Service */,
+				CB148D7B24991B6A003E7E7B /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2148DD15249A4C2D00CAAC38 /* PayDayBankDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2148DD43249A4C2D00CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBankDev" */;
+			buildPhases = (
+				2148DD17249A4C2D00CAAC38 /* Sources */,
+				2148DD39249A4C2D00CAAC38 /* Frameworks */,
+				2148DD3B249A4C2D00CAAC38 /* Resources */,
+				CB3A7503249ABBD700EB08CA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayDayBankDev;
+			productName = PayDayBank;
+			productReference = 2148DD46249A4C2D00CAAC38 /* PayDayBankDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2148DD48249A4CC700CAAC38 /* PayDayBankTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2148DD76249A4CC700CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBankTest" */;
+			buildPhases = (
+				2148DD4A249A4CC700CAAC38 /* Sources */,
+				2148DD6C249A4CC700CAAC38 /* Frameworks */,
+				2148DD6E249A4CC700CAAC38 /* Resources */,
+				CB3A74FF249ABBD000EB08CA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayDayBankTest;
+			productName = PayDayBank;
+			productReference = 2148DD79249A4CC700CAAC38 /* PayDayBankTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2148DD7B249A4CD100CAAC38 /* PayDayBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2148DDA9249A4CD100CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBank" */;
+			buildPhases = (
+				2148DD7C249A4CD100CAAC38 /* [CP] Check Pods Manifest.lock */,
+				2148DD7D249A4CD100CAAC38 /* Sources */,
+				2148DD9F249A4CD100CAAC38 /* Frameworks */,
+				2148DDA1249A4CD100CAAC38 /* Resources */,
+				2148DDA8249A4CD100CAAC38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayDayBank;
+			productName = PayDayBank;
+			productReference = 2148DDAC249A4CD100CAAC38 /* PayDayBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB148CD92498B686003E7E7B /* PayDayBankLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB148CEE2498B687003E7E7B /* Build configuration list for PBXNativeTarget "PayDayBankLocal" */;
+			buildPhases = (
+				CB148CD62498B686003E7E7B /* Sources */,
+				CB148CD72498B686003E7E7B /* Frameworks */,
+				CB148CD82498B686003E7E7B /* Resources */,
+				CB3A7507249ABBDC00EB08CA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayDayBankLocal;
+			productName = PayDayBank;
+			productReference = CB148CDA2498B686003E7E7B /* PayDayBankLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB148D012498B9BB003E7E7B /* PayDayBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB148D092498B9BB003E7E7B /* Build configuration list for PBXNativeTarget "PayDayBankTests" */;
+			buildPhases = (
+				E24A54577354528555257A9C /* [CP] Check Pods Manifest.lock */,
+				CB148CFE2498B9BB003E7E7B /* Sources */,
+				CB148CFF2498B9BB003E7E7B /* Frameworks */,
+				CB148D002498B9BB003E7E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3A7509249ABCBC00EB08CA /* PBXTargetDependency */,
+			);
+			name = PayDayBankTests;
+			productName = PayDayBankTests;
+			productReference = CB148D022498B9BB003E7E7B /* PayDayBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB148CD22498B686003E7E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kaan YILDIRIM";
+				TargetAttributes = {
+					CB148CD92498B686003E7E7B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CB148D012498B9BB003E7E7B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CB148CD92498B686003E7E7B;
+					};
+				};
+			};
+			buildConfigurationList = CB148CD52498B686003E7E7B /* Build configuration list for PBXProject "PayDayBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB148CD12498B686003E7E7B;
+			productRefGroup = CB148CDB2498B686003E7E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB148CD92498B686003E7E7B /* PayDayBankLocal */,
+				2148DD15249A4C2D00CAAC38 /* PayDayBankDev */,
+				2148DD48249A4CC700CAAC38 /* PayDayBankTest */,
+				2148DD7B249A4CD100CAAC38 /* PayDayBank */,
+				CB148D012498B9BB003E7E7B /* PayDayBankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2148DD3B249A4C2D00CAAC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DD3C249A4C2D00CAAC38 /* LaunchScreen.storyboard in Resources */,
+				2148DD3D249A4C2D00CAAC38 /* Dashboard.storyboard in Resources */,
+				CB3A7527249ABD3C00EB08CA /* SignUp.storyboard in Resources */,
+				2148DD3E249A4C2D00CAAC38 /* Assets.xcassets in Resources */,
+				2148DE2A249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
+				2148DD40249A4C2D00CAAC38 /* Main.storyboard in Resources */,
+				2148DD41249A4C2D00CAAC38 /* TransactionList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DD6E249A4CC700CAAC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DD6F249A4CC700CAAC38 /* LaunchScreen.storyboard in Resources */,
+				2148DD70249A4CC700CAAC38 /* Dashboard.storyboard in Resources */,
+				CB3A7528249ABD3D00EB08CA /* SignUp.storyboard in Resources */,
+				2148DD71249A4CC700CAAC38 /* Assets.xcassets in Resources */,
+				2148DE2B249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
+				2148DD73249A4CC700CAAC38 /* Main.storyboard in Resources */,
+				2148DD74249A4CC700CAAC38 /* TransactionList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DDA1249A4CD100CAAC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DDA2249A4CD100CAAC38 /* LaunchScreen.storyboard in Resources */,
+				2148DDA3249A4CD100CAAC38 /* Dashboard.storyboard in Resources */,
+				CB3A74ED249AA53800EB08CA /* SignUp.storyboard in Resources */,
+				2148DDA4249A4CD100CAAC38 /* Assets.xcassets in Resources */,
+				2148DE2C249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
+				2148DDA6249A4CD100CAAC38 /* Main.storyboard in Resources */,
+				2148DDA7249A4CD100CAAC38 /* TransactionList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148CD82498B686003E7E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB148CEA2498B687003E7E7B /* LaunchScreen.storyboard in Resources */,
+				CB148D392498BE8B003E7E7B /* Dashboard.storyboard in Resources */,
+				CB3A7526249ABD3C00EB08CA /* SignUp.storyboard in Resources */,
+				CB148CE72498B687003E7E7B /* Assets.xcassets in Resources */,
+				2148DE29249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
+				CB148CE52498B686003E7E7B /* Main.storyboard in Resources */,
+				CB148D2B2498BDB3003E7E7B /* TransactionList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148D002498B9BB003E7E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A7521249ABD2A00EB08CA /* LaunchScreen.storyboard in Resources */,
+				CB3A7533249ABD6100EB08CA /* Dashboard.storyboard in Resources */,
+				CB3A7522249ABD2C00EB08CA /* Main.storyboard in Resources */,
+				CB3A7529249ABD3D00EB08CA /* SignUp.storyboard in Resources */,
+				CB3A752E249ABD4F00EB08CA /* TransactionList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2148DD7C249A4CD100CAAC38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayDayBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2148DDA8249A4CD100CAAC38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayDayBank/Pods-PayDayBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayDayBank/Pods-PayDayBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayDayBank/Pods-PayDayBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24A54577354528555257A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayDayBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2148DD17249A4C2D00CAAC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DE0B249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */,
+				2148DD18249A4C2D00CAAC38 /* LoginView.swift in Sources */,
+				2148DDC0249A5ACF00CAAC38 /* Constants.swift in Sources */,
+				2148DD19249A4C2D00CAAC38 /* BasePresenter.swift in Sources */,
+				2148DD1A249A4C2D00CAAC38 /* LoginModel.swift in Sources */,
+				2148DE1A249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */,
+				2148DD1B249A4C2D00CAAC38 /* DashboardPresenter.swift in Sources */,
+				2148DD1C249A4C2D00CAAC38 /* LoginService.swift in Sources */,
+				2148DD1D249A4C2D00CAAC38 /* ActivityIndicator.swift in Sources */,
+				2148DE05249ACAA000CAAC38 /* DashboardService.swift in Sources */,
+				2148DD1E249A4C2D00CAAC38 /* LoginPresenter.swift in Sources */,
+				2148DD1F249A4C2D00CAAC38 /* TransactionListPresenter.swift in Sources */,
+				2148DD20249A4C2D00CAAC38 /* PrimaryTextField.swift in Sources */,
+				2148DD21249A4C2D00CAAC38 /* SignUpModel.swift in Sources */,
+				2148DD22249A4C2D00CAAC38 /* SceneDelegate.swift in Sources */,
+				2148DD23249A4C2D00CAAC38 /* ServiceAPICaller.swift in Sources */,
+				2148DD24249A4C2D00CAAC38 /* TransactionListView.swift in Sources */,
+				2148DD25249A4C2D00CAAC38 /* SignUpViewController.swift in Sources */,
+				2148DD26249A4C2D00CAAC38 /* LoginRequestModel.swift in Sources */,
+				2148DD27249A4C2D00CAAC38 /* DashboardView.swift in Sources */,
+				2148DD28249A4C2D00CAAC38 /* LoginViewController.swift in Sources */,
+				2148DD29249A4C2D00CAAC38 /* SignUpView.swift in Sources */,
+				2148DE26249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
+				CB3A74F0249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
+				2148DD2A249A4C2D00CAAC38 /* DashboardModel.swift in Sources */,
+				2148DD2B249A4C2D00CAAC38 /* Service.swift in Sources */,
+				2148DD2C249A4C2D00CAAC38 /* PopUp.swift in Sources */,
+				2148DD2D249A4C2D00CAAC38 /* AppDelegate.swift in Sources */,
+				CB3A750C249ABCE700EB08CA /* SessionManager.swift in Sources */,
+				2148DD2E249A4C2D00CAAC38 /* TransactionListModel.swift in Sources */,
+				2148DE01249ACAA000CAAC38 /* TransactionService.swift in Sources */,
+				CB3A74F5249AABA100EB08CA /* SignUpService.swift in Sources */,
+				2148DD2F249A4C2D00CAAC38 /* CustomerModel.swift in Sources */,
+				2148DD30249A4C2D00CAAC38 /* TransactionListViewController.swift in Sources */,
+				2148DD31249A4C2D00CAAC38 /* SignUpPresenter.swift in Sources */,
+				2148DD32249A4C2D00CAAC38 /* AccountModel.swift in Sources */,
+				2148DD33249A4C2D00CAAC38 /* TransactionModel.swift in Sources */,
+				2148DD34249A4C2D00CAAC38 /* BaseViewController.swift in Sources */,
+				2148DD35249A4C2D00CAAC38 /* PrimaryButton.swift in Sources */,
+				2148DD36249A4C2D00CAAC38 /* ResponseHandler.swift in Sources */,
+				2148DD37249A4C2D00CAAC38 /* BasePresenterProtocol.swift in Sources */,
+				2148DD38249A4C2D00CAAC38 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DD4A249A4CC700CAAC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DE0C249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */,
+				2148DD4B249A4CC700CAAC38 /* LoginView.swift in Sources */,
+				2148DDC1249A5ACF00CAAC38 /* Constants.swift in Sources */,
+				2148DD4C249A4CC700CAAC38 /* BasePresenter.swift in Sources */,
+				2148DD4D249A4CC700CAAC38 /* LoginModel.swift in Sources */,
+				2148DE1B249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */,
+				2148DD4E249A4CC700CAAC38 /* DashboardPresenter.swift in Sources */,
+				2148DD4F249A4CC700CAAC38 /* LoginService.swift in Sources */,
+				2148DD50249A4CC700CAAC38 /* ActivityIndicator.swift in Sources */,
+				2148DE06249ACAA000CAAC38 /* DashboardService.swift in Sources */,
+				2148DD51249A4CC700CAAC38 /* LoginPresenter.swift in Sources */,
+				2148DD52249A4CC700CAAC38 /* TransactionListPresenter.swift in Sources */,
+				2148DD53249A4CC700CAAC38 /* PrimaryTextField.swift in Sources */,
+				2148DD54249A4CC700CAAC38 /* SignUpModel.swift in Sources */,
+				2148DD55249A4CC700CAAC38 /* SceneDelegate.swift in Sources */,
+				2148DD56249A4CC700CAAC38 /* ServiceAPICaller.swift in Sources */,
+				2148DD57249A4CC700CAAC38 /* TransactionListView.swift in Sources */,
+				2148DD58249A4CC700CAAC38 /* SignUpViewController.swift in Sources */,
+				2148DD59249A4CC700CAAC38 /* LoginRequestModel.swift in Sources */,
+				2148DD5A249A4CC700CAAC38 /* DashboardView.swift in Sources */,
+				2148DD5B249A4CC700CAAC38 /* LoginViewController.swift in Sources */,
+				2148DD5C249A4CC700CAAC38 /* SignUpView.swift in Sources */,
+				2148DE27249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
+				CB3A74F1249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
+				2148DD5D249A4CC700CAAC38 /* DashboardModel.swift in Sources */,
+				2148DD5E249A4CC700CAAC38 /* Service.swift in Sources */,
+				2148DD5F249A4CC700CAAC38 /* PopUp.swift in Sources */,
+				2148DD60249A4CC700CAAC38 /* AppDelegate.swift in Sources */,
+				CB3A750D249ABCE700EB08CA /* SessionManager.swift in Sources */,
+				2148DD61249A4CC700CAAC38 /* TransactionListModel.swift in Sources */,
+				2148DE02249ACAA000CAAC38 /* TransactionService.swift in Sources */,
+				CB3A74F6249AABA100EB08CA /* SignUpService.swift in Sources */,
+				2148DD62249A4CC700CAAC38 /* CustomerModel.swift in Sources */,
+				2148DD63249A4CC700CAAC38 /* TransactionListViewController.swift in Sources */,
+				2148DD64249A4CC700CAAC38 /* SignUpPresenter.swift in Sources */,
+				2148DD65249A4CC700CAAC38 /* AccountModel.swift in Sources */,
+				2148DD66249A4CC700CAAC38 /* TransactionModel.swift in Sources */,
+				2148DD67249A4CC700CAAC38 /* BaseViewController.swift in Sources */,
+				2148DD68249A4CC700CAAC38 /* PrimaryButton.swift in Sources */,
+				2148DD69249A4CC700CAAC38 /* ResponseHandler.swift in Sources */,
+				2148DD6A249A4CC700CAAC38 /* BasePresenterProtocol.swift in Sources */,
+				2148DD6B249A4CC700CAAC38 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148DD7D249A4CD100CAAC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DE0D249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */,
+				2148DD7E249A4CD100CAAC38 /* LoginView.swift in Sources */,
+				2148DDC2249A5ACF00CAAC38 /* Constants.swift in Sources */,
+				2148DD7F249A4CD100CAAC38 /* BasePresenter.swift in Sources */,
+				2148DD80249A4CD100CAAC38 /* LoginModel.swift in Sources */,
+				2148DE1C249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */,
+				2148DD81249A4CD100CAAC38 /* DashboardPresenter.swift in Sources */,
+				2148DD82249A4CD100CAAC38 /* LoginService.swift in Sources */,
+				2148DD83249A4CD100CAAC38 /* ActivityIndicator.swift in Sources */,
+				2148DE07249ACAA000CAAC38 /* DashboardService.swift in Sources */,
+				2148DD84249A4CD100CAAC38 /* LoginPresenter.swift in Sources */,
+				2148DD85249A4CD100CAAC38 /* TransactionListPresenter.swift in Sources */,
+				2148DD86249A4CD100CAAC38 /* PrimaryTextField.swift in Sources */,
+				2148DD87249A4CD100CAAC38 /* SignUpModel.swift in Sources */,
+				2148DD88249A4CD100CAAC38 /* SceneDelegate.swift in Sources */,
+				2148DD89249A4CD100CAAC38 /* ServiceAPICaller.swift in Sources */,
+				CB3A74EB249A9C6300EB08CA /* SessionManager.swift in Sources */,
+				2148DD8A249A4CD100CAAC38 /* TransactionListView.swift in Sources */,
+				2148DD8B249A4CD100CAAC38 /* SignUpViewController.swift in Sources */,
+				2148DD8C249A4CD100CAAC38 /* LoginRequestModel.swift in Sources */,
+				2148DD8D249A4CD100CAAC38 /* DashboardView.swift in Sources */,
+				2148DD8E249A4CD100CAAC38 /* LoginViewController.swift in Sources */,
+				2148DE28249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
+				2148DD8F249A4CD100CAAC38 /* SignUpView.swift in Sources */,
+				2148DD90249A4CD100CAAC38 /* DashboardModel.swift in Sources */,
+				2148DD91249A4CD100CAAC38 /* Service.swift in Sources */,
+				2148DD92249A4CD100CAAC38 /* PopUp.swift in Sources */,
+				2148DD93249A4CD100CAAC38 /* AppDelegate.swift in Sources */,
+				2148DD94249A4CD100CAAC38 /* TransactionListModel.swift in Sources */,
+				2148DD95249A4CD100CAAC38 /* CustomerModel.swift in Sources */,
+				2148DE03249ACAA000CAAC38 /* TransactionService.swift in Sources */,
+				2148DD96249A4CD100CAAC38 /* TransactionListViewController.swift in Sources */,
+				2148DD97249A4CD100CAAC38 /* SignUpPresenter.swift in Sources */,
+				CB3A74F7249AABA100EB08CA /* SignUpService.swift in Sources */,
+				2148DD98249A4CD100CAAC38 /* AccountModel.swift in Sources */,
+				2148DD99249A4CD100CAAC38 /* TransactionModel.swift in Sources */,
+				2148DD9A249A4CD100CAAC38 /* BaseViewController.swift in Sources */,
+				2148DD9B249A4CD100CAAC38 /* PrimaryButton.swift in Sources */,
+				2148DD9C249A4CD100CAAC38 /* ResponseHandler.swift in Sources */,
+				2148DD9D249A4CD100CAAC38 /* BasePresenterProtocol.swift in Sources */,
+				2148DD9E249A4CD100CAAC38 /* DashboardViewController.swift in Sources */,
+				CB3A74F2249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148CD62498B686003E7E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148DE0A249ACAC300CAAC38 /* TransactionListRequestModel.swift in Sources */,
+				CB148D1B2498BD10003E7E7B /* LoginView.swift in Sources */,
+				2148DDBF249A5ACF00CAAC38 /* Constants.swift in Sources */,
+				CB148D432498C50B003E7E7B /* BasePresenter.swift in Sources */,
+				CB148D1D2498BD18003E7E7B /* LoginModel.swift in Sources */,
+				2148DE19249ACB2D00CAAC38 /* AccountsRequestModel.swift in Sources */,
+				CB148D3D2498BECB003E7E7B /* DashboardPresenter.swift in Sources */,
+				CB148D7A24991ACC003E7E7B /* LoginService.swift in Sources */,
+				CB148D742498F30D003E7E7B /* ActivityIndicator.swift in Sources */,
+				2148DE04249ACAA000CAAC38 /* DashboardService.swift in Sources */,
+				CB148D0F2498BC5D003E7E7B /* LoginPresenter.swift in Sources */,
+				CB148D2D2498BDC4003E7E7B /* TransactionListPresenter.swift in Sources */,
+				CB148D6E2498EE4C003E7E7B /* PrimaryTextField.swift in Sources */,
+				CB148D212498BD5D003E7E7B /* SignUpModel.swift in Sources */,
+				CB148D672498CAC6003E7E7B /* SceneDelegate.swift in Sources */,
+				CB148D8724992BFC003E7E7B /* ServiceAPICaller.swift in Sources */,
+				CB148D332498BE1E003E7E7B /* TransactionListView.swift in Sources */,
+				CB148D232498BD6F003E7E7B /* SignUpViewController.swift in Sources */,
+				CB148D7D24991BE0003E7E7B /* LoginRequestModel.swift in Sources */,
+				CB148D412498BEDE003E7E7B /* DashboardView.swift in Sources */,
+				CB148CE22498B686003E7E7B /* LoginViewController.swift in Sources */,
+				CB148D1F2498BD54003E7E7B /* SignUpView.swift in Sources */,
+				2148DE25249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
+				CB3A74EF249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
+				CB148D3F2498BED4003E7E7B /* DashboardModel.swift in Sources */,
+				CB148D112498BCAD003E7E7B /* Service.swift in Sources */,
+				CB148D722498F0B3003E7E7B /* PopUp.swift in Sources */,
+				CB148CDE2498B686003E7E7B /* AppDelegate.swift in Sources */,
+				CB3A750B249ABCE700EB08CA /* SessionManager.swift in Sources */,
+				CB148D312498BE0E003E7E7B /* TransactionListModel.swift in Sources */,
+				2148DE00249ACAA000CAAC38 /* TransactionService.swift in Sources */,
+				CB3A74F4249AABA100EB08CA /* SignUpService.swift in Sources */,
+				CB148D7F24991CD5003E7E7B /* CustomerModel.swift in Sources */,
+				CB148D2F2498BDD4003E7E7B /* TransactionListViewController.swift in Sources */,
+				CB148D252498BD7C003E7E7B /* SignUpPresenter.swift in Sources */,
+				CB148D8124991D71003E7E7B /* AccountModel.swift in Sources */,
+				CB148D8324991D93003E7E7B /* TransactionModel.swift in Sources */,
+				CB148D0D2498BC22003E7E7B /* BaseViewController.swift in Sources */,
+				CB148D6C2498EE42003E7E7B /* PrimaryButton.swift in Sources */,
+				CB148D85249922A4003E7E7B /* ResponseHandler.swift in Sources */,
+				CB148D452498C517003E7E7B /* BasePresenterProtocol.swift in Sources */,
+				CB148D3B2498BEB8003E7E7B /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB148CFE2498B9BB003E7E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A7514249ABCFC00EB08CA /* ServiceAPICaller.swift in Sources */,
+				CB3A752F249ABD5400EB08CA /* TransactionListView.swift in Sources */,
+				CB3A7516249ABD0100EB08CA /* LoginRequestModel.swift in Sources */,
+				CB3A7515249ABCFF00EB08CA /* SignUpService.swift in Sources */,
+				CB3A74FB249AB74D00EB08CA /* LoginPresenter.swift in Sources */,
+				CB3A751E249ABD1C00EB08CA /* ActivityIndicator.swift in Sources */,
+				CB3A7510249ABCEE00EB08CA /* BasePresenter.swift in Sources */,
+				CB3A7523249ABD3000EB08CA /* LoginView.swift in Sources */,
+				CB3A7530249ABD5700EB08CA /* TransactionListModel.swift in Sources */,
+				CB148D052498B9BB003E7E7B /* PayDayBankTests.swift in Sources */,
+				CB3A751F249ABD2500EB08CA /* SceneDelegate.swift in Sources */,
+				CB3A7536249ABD6C00EB08CA /* DashboardPresenter.swift in Sources */,
+				CB3A751D249ABD1800EB08CA /* PopUp.swift in Sources */,
+				CB3A7524249ABD3200EB08CA /* LoginModel.swift in Sources */,
+				CB3A751B249ABD1100EB08CA /* PrimaryTextField.swift in Sources */,
+				CB3A74FA249AB64300EB08CA /* LoginTests.swift in Sources */,
+				CB3A751A249ABD0B00EB08CA /* SignUpRequestModel.swift in Sources */,
+				CB3A7512249ABCF600EB08CA /* LoginService.swift in Sources */,
+				CB3A7534249ABD6400EB08CA /* DashboardView.swift in Sources */,
+				CB3A7537249ABD6F00EB08CA /* DashboardViewController.swift in Sources */,
+				CB3A7538249ABD7E00EB08CA /* Constants.swift in Sources */,
+				CB3A752B249ABD4500EB08CA /* SignUpModel.swift in Sources */,
+				CB3A7519249ABD0900EB08CA /* TransactionModel.swift in Sources */,
+				CB3A752A249ABD4100EB08CA /* SignUpView.swift in Sources */,
+				CB3A750E249ABCE800EB08CA /* SessionManager.swift in Sources */,
+				CB3A7511249ABCF300EB08CA /* ResponseHandler.swift in Sources */,
+				CB3A7518249ABD0600EB08CA /* AccountModel.swift in Sources */,
+				CB3A7513249ABCF900EB08CA /* Service.swift in Sources */,
+				CB3A7531249ABD5A00EB08CA /* TransactionListPresenter.swift in Sources */,
+				CB3A7532249ABD5D00EB08CA /* TransactionListViewController.swift in Sources */,
+				CB3A7517249ABD0300EB08CA /* CustomerModel.swift in Sources */,
+				CB3A7535249ABD6800EB08CA /* DashboardModel.swift in Sources */,
+				CB3A751C249ABD1500EB08CA /* PrimaryButton.swift in Sources */,
+				CB3A752D249ABD4B00EB08CA /* SignUpViewController.swift in Sources */,
+				CB3A750A249ABCDF00EB08CA /* BasePresenterProtocol.swift in Sources */,
+				CB3A750F249ABCEC00EB08CA /* BaseViewController.swift in Sources */,
+				CB3A7525249ABD3800EB08CA /* LoginViewController.swift in Sources */,
+				CB3A752C249ABD4800EB08CA /* SignUpPresenter.swift in Sources */,
+				CB3A7520249ABD2700EB08CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3A7509249ABCBC00EB08CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2148DD7B249A4CD100CAAC38 /* PayDayBank */;
+			targetProxy = CB3A7508249ABCBC00EB08CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB148CE32498B686003E7E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB148CE42498B686003E7E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB148CE82498B687003E7E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB148CE92498B687003E7E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2148DD44249A4C2D00CAAC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBank copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2148DD45249A4C2D00CAAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBank copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2148DD77249A4CC700CAAC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBankDev copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2148DD78249A4CC700CAAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBankDev copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2148DDAA249A4CD100CAAC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC75FFB42929EEC9B6A75C3C /* Pods-PayDayBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBankTest copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBank;
+				PRODUCT_NAME = PayDayBank;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2148DDAB249A4CD100CAAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FC9CB6B57F131B448EE7C4 /* Pods-PayDayBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = "PayDayBankTest copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBank;
+				PRODUCT_NAME = PayDayBank;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB148CEC2498B687003E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB148CED2498B687003E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB148CEF2498B687003E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = PayDayBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB148CF02498B687003E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = PayDayBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB148D0A2498B9BB003E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D272B18188F25895572828C9 /* Pods-PayDayBankTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = PayDayBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.picklebit.PayDayBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayDayBank.app/PayDayBank";
+			};
+			name = Debug;
+		};
+		CB148D0B2498B9BB003E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF30487AB9B0A8625446D08 /* Pods-PayDayBankTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L25P458JW2;
+				INFOPLIST_FILE = PayDayBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.picklebit.PayDayBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayDayBank.app/PayDayBank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2148DD43249A4C2D00CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBankDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148DD44249A4C2D00CAAC38 /* Debug */,
+				2148DD45249A4C2D00CAAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2148DD76249A4CC700CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148DD77249A4CC700CAAC38 /* Debug */,
+				2148DD78249A4CC700CAAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2148DDA9249A4CD100CAAC38 /* Build configuration list for PBXNativeTarget "PayDayBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148DDAA249A4CD100CAAC38 /* Debug */,
+				2148DDAB249A4CD100CAAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB148CD52498B686003E7E7B /* Build configuration list for PBXProject "PayDayBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB148CEC2498B687003E7E7B /* Debug */,
+				CB148CED2498B687003E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB148CEE2498B687003E7E7B /* Build configuration list for PBXNativeTarget "PayDayBankLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB148CEF2498B687003E7E7B /* Debug */,
+				CB148CF02498B687003E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB148D092498B9BB003E7E7B /* Build configuration list for PBXNativeTarget "PayDayBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB148D0A2498B9BB003E7E7B /* Debug */,
+				CB148D0B2498B9BB003E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB148CD22498B686003E7E7B /* Project object */;
+}

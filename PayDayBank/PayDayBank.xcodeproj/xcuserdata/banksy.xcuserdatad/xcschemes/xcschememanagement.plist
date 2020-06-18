@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PayDayBank.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>PayDayBankDev.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>PayDayBankLocal.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>PayDayBankTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2148DD15249A4C2D00CAAC38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2148DD48249A4CC700CAAC38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2148DD7B249A4CD100CAAC38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB148CD92498B686003E7E7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB148D012498B9BB003E7E7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.2.1)
+  - DynamicBlurView (4.1.0)
+  - MaterialActivityIndicator (0.0.6)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - MaterialActivityIndicator
+  - PopupDialog (~> 1.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DynamicBlurView
+    - MaterialActivityIndicator
+    - PopupDialog
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  MaterialActivityIndicator: 5061a52fadf7d22533734f2d34806311331bc424
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+
+PODFILE CHECKSUM: 40747d89e0d045a167afb1901b9595fd1e00e678
+
+COCOAPODS: 1.9.1
