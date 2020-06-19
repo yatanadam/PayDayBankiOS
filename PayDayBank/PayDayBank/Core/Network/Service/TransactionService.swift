@@ -3,7 +3,7 @@
 //  PayDayBank
 //
 //  Created by Banksy on 18.06.2020.
-//  Copyright © 2020 Kaan YILDIRIM. All rights reserved.
+//  Copyright © 2020 . All rights reserved.
 //
 
 import Foundation

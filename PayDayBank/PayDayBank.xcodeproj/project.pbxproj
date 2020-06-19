@@ -45,7 +45,6 @@
 		2148DD3D249A4C2D00CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
 		2148DD3E249A4C2D00CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
 		2148DD40249A4C2D00CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
-		2148DD41249A4C2D00CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
 		2148DD4B249A4CC700CAAC38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
 		2148DD4C249A4CC700CAAC38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
 		2148DD4D249A4CC700CAAC38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
@@ -83,7 +82,6 @@
 		2148DD70249A4CC700CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
 		2148DD71249A4CC700CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
 		2148DD73249A4CC700CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
-		2148DD74249A4CC700CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
 		2148DD7E249A4CD100CAAC38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1A2498BD10003E7E7B /* LoginView.swift */; };
 		2148DD7F249A4CD100CAAC38 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D422498C50B003E7E7B /* BasePresenter.swift */; };
 		2148DD80249A4CD100CAAC38 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D1C2498BD18003E7E7B /* LoginModel.swift */; };
@@ -122,7 +120,6 @@
 		2148DDA3249A4CD100CAAC38 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D382498BE8B003E7E7B /* Dashboard.storyboard */; };
 		2148DDA4249A4CD100CAAC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE62498B687003E7E7B /* Assets.xcassets */; };
 		2148DDA6249A4CD100CAAC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
-		2148DDA7249A4CD100CAAC38 /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
 		2148DDBF249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
 		2148DDC0249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
 		2148DDC1249A5ACF00CAAC38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
@@ -152,6 +149,7 @@
 		2148DE2B249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
 		2148DE2C249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
 		84B051F12C5B852659C4C773 /* Pods_PayDayBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F065C2D4C009B1F7FA53365C /* Pods_PayDayBankTests.framework */; };
+		ABA823A9F608251EEE3257AA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */; };
 		CB148CDE2498B686003E7E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CDD2498B686003E7E7B /* AppDelegate.swift */; };
 		CB148CE22498B686003E7E7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148CE12498B686003E7E7B /* LoginViewController.swift */; };
 		CB148CE52498B686003E7E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148CE32498B686003E7E7B /* Main.storyboard */; };
@@ -167,7 +165,6 @@
 		CB148D212498BD5D003E7E7B /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
 		CB148D232498BD6F003E7E7B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
 		CB148D252498BD7C003E7E7B /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
-		CB148D2B2498BDB3003E7E7B /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
 		CB148D2D2498BDC4003E7E7B /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
 		CB148D2F2498BDD4003E7E7B /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */; };
 		CB148D312498BE0E003E7E7B /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
@@ -203,11 +200,8 @@
 		CB3A74F7249AABA100EB08CA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F3249AABA100EB08CA /* SignUpService.swift */; };
 		CB3A74FA249AB64300EB08CA /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74F9249AB64300EB08CA /* LoginTests.swift */; };
 		CB3A74FB249AB74D00EB08CA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D0E2498BC5D003E7E7B /* LoginPresenter.swift */; };
-		CB3A74FD249ABBD000EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */; };
 		CB3A74FE249ABBD000EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CB3A7501249ABBD700EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */; };
 		CB3A7502249ABBD700EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CB3A7505249ABBDC00EB08CA /* Pods_PayDayBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */; };
 		CB3A7506249ABBDC00EB08CA /* Pods_PayDayBank.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CB3A750A249ABCDF00EB08CA /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D442498C517003E7E7B /* BasePresenterProtocol.swift */; };
 		CB3A750B249ABCE700EB08CA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A74EA249A9C6300EB08CA /* SessionManager.swift */; };
@@ -245,7 +239,6 @@
 		CB3A752B249ABD4500EB08CA /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D202498BD5D003E7E7B /* SignUpModel.swift */; };
 		CB3A752C249ABD4800EB08CA /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */; };
 		CB3A752D249ABD4B00EB08CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D222498BD6F003E7E7B /* SignUpViewController.swift */; };
-		CB3A752E249ABD4F00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */; };
 		CB3A752F249ABD5400EB08CA /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D322498BE1E003E7E7B /* TransactionListView.swift */; };
 		CB3A7530249ABD5700EB08CA /* TransactionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D302498BE0E003E7E7B /* TransactionListModel.swift */; };
 		CB3A7531249ABD5A00EB08CA /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */; };
@@ -256,6 +249,32 @@
 		CB3A7536249ABD6C00EB08CA /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3C2498BECB003E7E7B /* DashboardPresenter.swift */; };
 		CB3A7537249ABD6F00EB08CA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB148D3A2498BEB8003E7E7B /* DashboardViewController.swift */; };
 		CB3A7538249ABD7E00EB08CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDBE249A5ACF00CAAC38 /* Constants.swift */; };
+		CB3A753A249AD0A800EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */; };
+		CB3A753B249AD0AC00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */; };
+		CB3A753C249AD0AC00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */; };
+		CB3A753D249AD0AC00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */; };
+		CB3A753E249AD0AD00EB08CA /* TransactionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */; };
+		CB3A7541249AD18A00EB08CA /* PrimaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */; };
+		CB3A7542249AD18A00EB08CA /* PrimaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */; };
+		CB3A7543249AD18A00EB08CA /* PrimaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */; };
+		CB3A7544249AD18A00EB08CA /* PrimaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */; };
+		CB3A7545249AD18A00EB08CA /* PrimaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */; };
+		CB3A7548249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */; };
+		CB3A7549249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */; };
+		CB3A754A249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */; };
+		CB3A754B249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */; };
+		CB3A754C249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */; };
+		CB3A754D249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */; };
+		CB3A754E249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */; };
+		CB3A754F249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */; };
+		CB3A7550249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */; };
+		CB3A7551249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */; };
+		CB3A7552249ADF5100EB08CA /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFF249ACAA000CAAC38 /* DashboardService.swift */; };
+		CB3A7553249ADF5400EB08CA /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DDFE249ACAA000CAAC38 /* TransactionService.swift */; };
+		CB3A7554249ADF5800EB08CA /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE23249ACF3000CAAC38 /* TransactionTableViewCell.swift */; };
+		CB3A7555249ADF5C00EB08CA /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2148DE24249ACF3000CAAC38 /* TransactionTableViewCell.xib */; };
+		CB3A7556249ADF7600EB08CA /* TransactionListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE08249ACAC300CAAC38 /* TransactionListRequestModel.swift */; };
+		CB3A7557249ADF7D00EB08CA /* AccountsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148DE18249ACB2D00CAAC38 /* AccountsRequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,7 +360,6 @@
 		CB148D202498BD5D003E7E7B /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		CB148D222498BD6F003E7E7B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CB148D242498BD7C003E7E7B /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
-		CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransactionList.storyboard; sourceTree = "<group>"; };
 		CB148D2C2498BDC4003E7E7B /* TransactionListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenter.swift; sourceTree = "<group>"; };
 		CB148D2E2498BDD4003E7E7B /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
 		CB148D302498BE0E003E7E7B /* TransactionListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModel.swift; sourceTree = "<group>"; };
@@ -373,6 +391,10 @@
 		CB3A74FC249ABBD000EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3A7500249ABBD700EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3A7504249ABBDC00EB08CA /* Pods_PayDayBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PayDayBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TransactionList.storyboard; sourceTree = "<group>"; };
+		CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryPicker.swift; sourceTree = "<group>"; };
+		CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionListTableViewCell.xib; sourceTree = "<group>"; };
+		CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListTableViewCell.swift; sourceTree = "<group>"; };
 		D272B18188F25895572828C9 /* Pods-PayDayBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayDayBankTests.debug.xcconfig"; path = "Target Support Files/Pods-PayDayBankTests/Pods-PayDayBankTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F065C2D4C009B1F7FA53365C /* Pods_PayDayBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayDayBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -382,7 +404,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3A7501249ABBD700EB08CA /* Pods_PayDayBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +411,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3A74FD249ABBD000EB08CA /* Pods_PayDayBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +420,7 @@
 			files = (
 				2148DDA0249A4CD100CAAC38 /* Pods_PayDayBank.framework in Frameworks */,
 				0E3E2158EE185972D6778FBF /* Pods_PayDayBank.framework in Frameworks */,
+				ABA823A9F608251EEE3257AA /* Pods_PayDayBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +428,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3A7505249ABBDC00EB08CA /* Pods_PayDayBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +615,7 @@
 		CB148CFA2498B835003E7E7B /* TransactionList */ = {
 			isa = PBXGroup;
 			children = (
-				CB148D2A2498BDB3003E7E7B /* TransactionList.storyboard */,
+				CB3A7539249AD0A800EB08CA /* TransactionList.storyboard */,
 				CB148D262498BD89003E7E7B /* View */,
 				CB148D272498BD8F003E7E7B /* Model */,
 				CB148D292498BD9A003E7E7B /* Presenter */,
@@ -691,6 +711,8 @@
 		CB148D262498BD89003E7E7B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB3A7547249AD70100EB08CA /* TransactionListTableViewCell.swift */,
+				CB3A7546249AD70100EB08CA /* TransactionListTableViewCell.xib */,
 				CB148D322498BE1E003E7E7B /* TransactionListView.swift */,
 			);
 			path = View;
@@ -771,6 +793,7 @@
 		CB148D6A2498EE32003E7E7B /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CB3A753F249AD17200EB08CA /* PrimaryPicker */,
 				CB148D702498EE59003E7E7B /* PrimaryTextField */,
 				CB148D6F2498EE51003E7E7B /* PrimaryButton */,
 			);
@@ -831,6 +854,14 @@
 				CB3A74F9249AB64300EB08CA /* LoginTests.swift */,
 			);
 			path = LoginTests;
+			sourceTree = "<group>";
+		};
+		CB3A753F249AD17200EB08CA /* PrimaryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A7540249AD18A00EB08CA /* PrimaryPicker.swift */,
+			);
+			path = PrimaryPicker;
 			sourceTree = "<group>";
 		};
 		CB85599924994BAB000FEF4A /* Network */ = {
@@ -987,9 +1018,10 @@
 				2148DD3D249A4C2D00CAAC38 /* Dashboard.storyboard in Resources */,
 				CB3A7527249ABD3C00EB08CA /* SignUp.storyboard in Resources */,
 				2148DD3E249A4C2D00CAAC38 /* Assets.xcassets in Resources */,
+				CB3A7549249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */,
+				CB3A753C249AD0AC00EB08CA /* TransactionList.storyboard in Resources */,
 				2148DE2A249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
 				2148DD40249A4C2D00CAAC38 /* Main.storyboard in Resources */,
-				2148DD41249A4C2D00CAAC38 /* TransactionList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,9 +1033,10 @@
 				2148DD70249A4CC700CAAC38 /* Dashboard.storyboard in Resources */,
 				CB3A7528249ABD3D00EB08CA /* SignUp.storyboard in Resources */,
 				2148DD71249A4CC700CAAC38 /* Assets.xcassets in Resources */,
+				CB3A754A249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */,
+				CB3A753D249AD0AC00EB08CA /* TransactionList.storyboard in Resources */,
 				2148DE2B249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
 				2148DD73249A4CC700CAAC38 /* Main.storyboard in Resources */,
-				2148DD74249A4CC700CAAC38 /* TransactionList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,9 +1048,10 @@
 				2148DDA3249A4CD100CAAC38 /* Dashboard.storyboard in Resources */,
 				CB3A74ED249AA53800EB08CA /* SignUp.storyboard in Resources */,
 				2148DDA4249A4CD100CAAC38 /* Assets.xcassets in Resources */,
+				CB3A754B249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */,
+				CB3A753A249AD0A800EB08CA /* TransactionList.storyboard in Resources */,
 				2148DE2C249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
 				2148DDA6249A4CD100CAAC38 /* Main.storyboard in Resources */,
-				2148DDA7249A4CD100CAAC38 /* TransactionList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,9 +1063,10 @@
 				CB148D392498BE8B003E7E7B /* Dashboard.storyboard in Resources */,
 				CB3A7526249ABD3C00EB08CA /* SignUp.storyboard in Resources */,
 				CB148CE72498B687003E7E7B /* Assets.xcassets in Resources */,
+				CB3A7548249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */,
+				CB3A753B249AD0AC00EB08CA /* TransactionList.storyboard in Resources */,
 				2148DE29249ACF3000CAAC38 /* TransactionTableViewCell.xib in Resources */,
 				CB148CE52498B686003E7E7B /* Main.storyboard in Resources */,
-				CB148D2B2498BDB3003E7E7B /* TransactionList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,11 +1074,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3A754C249AD70100EB08CA /* TransactionListTableViewCell.xib in Resources */,
 				CB3A7521249ABD2A00EB08CA /* LaunchScreen.storyboard in Resources */,
 				CB3A7533249ABD6100EB08CA /* Dashboard.storyboard in Resources */,
 				CB3A7522249ABD2C00EB08CA /* Main.storyboard in Resources */,
+				CB3A7555249ADF5C00EB08CA /* TransactionTableViewCell.xib in Resources */,
 				CB3A7529249ABD3D00EB08CA /* SignUp.storyboard in Resources */,
-				CB3A752E249ABD4F00EB08CA /* TransactionList.storyboard in Resources */,
+				CB3A753E249AD0AD00EB08CA /* TransactionList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,6 +1177,7 @@
 				2148DD27249A4C2D00CAAC38 /* DashboardView.swift in Sources */,
 				2148DD28249A4C2D00CAAC38 /* LoginViewController.swift in Sources */,
 				2148DD29249A4C2D00CAAC38 /* SignUpView.swift in Sources */,
+				CB3A754E249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */,
 				2148DE26249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
 				CB3A74F0249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
 				2148DD2A249A4C2D00CAAC38 /* DashboardModel.swift in Sources */,
@@ -1148,6 +1186,7 @@
 				2148DD2D249A4C2D00CAAC38 /* AppDelegate.swift in Sources */,
 				CB3A750C249ABCE700EB08CA /* SessionManager.swift in Sources */,
 				2148DD2E249A4C2D00CAAC38 /* TransactionListModel.swift in Sources */,
+				CB3A7542249AD18A00EB08CA /* PrimaryPicker.swift in Sources */,
 				2148DE01249ACAA000CAAC38 /* TransactionService.swift in Sources */,
 				CB3A74F5249AABA100EB08CA /* SignUpService.swift in Sources */,
 				2148DD2F249A4C2D00CAAC38 /* CustomerModel.swift in Sources */,
@@ -1189,6 +1228,7 @@
 				2148DD5A249A4CC700CAAC38 /* DashboardView.swift in Sources */,
 				2148DD5B249A4CC700CAAC38 /* LoginViewController.swift in Sources */,
 				2148DD5C249A4CC700CAAC38 /* SignUpView.swift in Sources */,
+				CB3A754F249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */,
 				2148DE27249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
 				CB3A74F1249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
 				2148DD5D249A4CC700CAAC38 /* DashboardModel.swift in Sources */,
@@ -1197,6 +1237,7 @@
 				2148DD60249A4CC700CAAC38 /* AppDelegate.swift in Sources */,
 				CB3A750D249ABCE700EB08CA /* SessionManager.swift in Sources */,
 				2148DD61249A4CC700CAAC38 /* TransactionListModel.swift in Sources */,
+				CB3A7543249AD18A00EB08CA /* PrimaryPicker.swift in Sources */,
 				2148DE02249ACAA000CAAC38 /* TransactionService.swift in Sources */,
 				CB3A74F6249AABA100EB08CA /* SignUpService.swift in Sources */,
 				2148DD62249A4CC700CAAC38 /* CustomerModel.swift in Sources */,
@@ -1238,6 +1279,7 @@
 				2148DD8C249A4CD100CAAC38 /* LoginRequestModel.swift in Sources */,
 				2148DD8D249A4CD100CAAC38 /* DashboardView.swift in Sources */,
 				2148DD8E249A4CD100CAAC38 /* LoginViewController.swift in Sources */,
+				CB3A7550249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */,
 				2148DE28249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
 				2148DD8F249A4CD100CAAC38 /* SignUpView.swift in Sources */,
 				2148DD90249A4CD100CAAC38 /* DashboardModel.swift in Sources */,
@@ -1246,6 +1288,7 @@
 				2148DD93249A4CD100CAAC38 /* AppDelegate.swift in Sources */,
 				2148DD94249A4CD100CAAC38 /* TransactionListModel.swift in Sources */,
 				2148DD95249A4CD100CAAC38 /* CustomerModel.swift in Sources */,
+				CB3A7544249AD18A00EB08CA /* PrimaryPicker.swift in Sources */,
 				2148DE03249ACAA000CAAC38 /* TransactionService.swift in Sources */,
 				2148DD96249A4CD100CAAC38 /* TransactionListViewController.swift in Sources */,
 				2148DD97249A4CD100CAAC38 /* SignUpPresenter.swift in Sources */,
@@ -1287,6 +1330,7 @@
 				CB148D412498BEDE003E7E7B /* DashboardView.swift in Sources */,
 				CB148CE22498B686003E7E7B /* LoginViewController.swift in Sources */,
 				CB148D1F2498BD54003E7E7B /* SignUpView.swift in Sources */,
+				CB3A754D249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */,
 				2148DE25249ACF3000CAAC38 /* TransactionTableViewCell.swift in Sources */,
 				CB3A74EF249AAB6000EB08CA /* SignUpRequestModel.swift in Sources */,
 				CB148D3F2498BED4003E7E7B /* DashboardModel.swift in Sources */,
@@ -1295,6 +1339,7 @@
 				CB148CDE2498B686003E7E7B /* AppDelegate.swift in Sources */,
 				CB3A750B249ABCE700EB08CA /* SessionManager.swift in Sources */,
 				CB148D312498BE0E003E7E7B /* TransactionListModel.swift in Sources */,
+				CB3A7541249AD18A00EB08CA /* PrimaryPicker.swift in Sources */,
 				2148DE00249ACAA000CAAC38 /* TransactionService.swift in Sources */,
 				CB3A74F4249AABA100EB08CA /* SignUpService.swift in Sources */,
 				CB148D7F24991CD5003E7E7B /* CustomerModel.swift in Sources */,
@@ -1314,14 +1359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3A7545249AD18A00EB08CA /* PrimaryPicker.swift in Sources */,
 				CB3A7514249ABCFC00EB08CA /* ServiceAPICaller.swift in Sources */,
 				CB3A752F249ABD5400EB08CA /* TransactionListView.swift in Sources */,
 				CB3A7516249ABD0100EB08CA /* LoginRequestModel.swift in Sources */,
+				CB3A7552249ADF5100EB08CA /* DashboardService.swift in Sources */,
 				CB3A7515249ABCFF00EB08CA /* SignUpService.swift in Sources */,
 				CB3A74FB249AB74D00EB08CA /* LoginPresenter.swift in Sources */,
 				CB3A751E249ABD1C00EB08CA /* ActivityIndicator.swift in Sources */,
 				CB3A7510249ABCEE00EB08CA /* BasePresenter.swift in Sources */,
 				CB3A7523249ABD3000EB08CA /* LoginView.swift in Sources */,
+				CB3A7556249ADF7600EB08CA /* TransactionListRequestModel.swift in Sources */,
 				CB3A7530249ABD5700EB08CA /* TransactionListModel.swift in Sources */,
 				CB148D052498B9BB003E7E7B /* PayDayBankTests.swift in Sources */,
 				CB3A751F249ABD2500EB08CA /* SceneDelegate.swift in Sources */,
@@ -1341,15 +1389,19 @@
 				CB3A750E249ABCE800EB08CA /* SessionManager.swift in Sources */,
 				CB3A7511249ABCF300EB08CA /* ResponseHandler.swift in Sources */,
 				CB3A7518249ABD0600EB08CA /* AccountModel.swift in Sources */,
+				CB3A7551249AD70100EB08CA /* TransactionListTableViewCell.swift in Sources */,
+				CB3A7557249ADF7D00EB08CA /* AccountsRequestModel.swift in Sources */,
 				CB3A7513249ABCF900EB08CA /* Service.swift in Sources */,
 				CB3A7531249ABD5A00EB08CA /* TransactionListPresenter.swift in Sources */,
 				CB3A7532249ABD5D00EB08CA /* TransactionListViewController.swift in Sources */,
 				CB3A7517249ABD0300EB08CA /* CustomerModel.swift in Sources */,
+				CB3A7554249ADF5800EB08CA /* TransactionTableViewCell.swift in Sources */,
 				CB3A7535249ABD6800EB08CA /* DashboardModel.swift in Sources */,
 				CB3A751C249ABD1500EB08CA /* PrimaryButton.swift in Sources */,
 				CB3A752D249ABD4B00EB08CA /* SignUpViewController.swift in Sources */,
 				CB3A750A249ABCDF00EB08CA /* BasePresenterProtocol.swift in Sources */,
 				CB3A750F249ABCEC00EB08CA /* BaseViewController.swift in Sources */,
+				CB3A7553249ADF5400EB08CA /* TransactionService.swift in Sources */,
 				CB3A7525249ABD3800EB08CA /* LoginViewController.swift in Sources */,
 				CB3A752C249ABD4800EB08CA /* SignUpPresenter.swift in Sources */,
 				CB3A7520249ABD2700EB08CA /* AppDelegate.swift in Sources */,
@@ -1667,7 +1719,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.picklebit.PayDayBankTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1688,7 +1740,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.picklebit.PayDayBankTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.challenge.PayDayBankTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -72,7 +72,10 @@ class DashboardViewController: BaseViewController {
     }
     
         
-        
+    @IBAction func showAllTransactionsPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "showTransactions", sender: nil)
+    }
+    
         
 
    

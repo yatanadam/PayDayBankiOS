@@ -1,5 +1,5 @@
 //
-//  TransactionTableViewCell.swift
+//  TransactionListTableViewCell.swift
 //  PayDayBank
 //
 //  Created by Banksy on 18.06.2020.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class TransactionTableViewCell: UITableViewCell {
+class TransactionListTableViewCell: UITableViewCell {
 
     @IBOutlet weak var amountLabel: UILabel?
     @IBOutlet weak var descriptionLabel: UILabel?
+    @IBOutlet weak var dateLabel: UILabel?
 
 
     

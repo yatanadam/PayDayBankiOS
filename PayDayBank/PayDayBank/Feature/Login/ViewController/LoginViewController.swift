@@ -30,7 +30,6 @@ extension LoginViewController: LoginPresenterProtocol {
    
     func loginAccepted() {
         self.performSegue(withIdentifier: "showDashboard", sender: nil)
-
     }
 }
 

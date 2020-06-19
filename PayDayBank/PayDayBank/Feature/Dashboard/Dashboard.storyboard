@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Clv-8W-yd0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Clv-8W-yd0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dv0-wk-vWa">
-                                <rect key="frame" x="0.0" y="252" width="414" height="610"/>
+                                <rect key="frame" x="0.0" y="252" width="414" height="552"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Clv-8W-yd0" id="nt7-z2-fmb"/>
@@ -142,15 +142,29 @@
                                     <constraint firstAttribute="bottom" secondItem="1J2-Sl-7pA" secondAttribute="bottom" constant="20" symbolic="YES" id="vHS-Aj-pM7"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dg-aJ-wmb">
+                                <rect key="frame" x="10" y="812" width="394" height="50"/>
+                                <color key="backgroundColor" red="0.23105791210000001" green="0.53337138890000002" blue="0.99020427470000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KuG-3Y-RKa"/>
+                                </constraints>
+                                <state key="normal" title="Show All Transactions"/>
+                                <connections>
+                                    <action selector="showAllTransactionsPressed:" destination="Clv-8W-yd0" eventType="touchUpInside" id="s8N-JO-ejC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7e1-Af-rlj" firstAttribute="bottom" secondItem="dv0-wk-vWa" secondAttribute="bottom" id="JoU-9K-ff1"/>
+                            <constraint firstItem="7e1-Af-rlj" firstAttribute="trailing" secondItem="1dg-aJ-wmb" secondAttribute="trailing" constant="10" id="GrS-O7-teE"/>
                             <constraint firstItem="7e1-Af-rlj" firstAttribute="trailing" secondItem="U1B-Px-o1J" secondAttribute="trailing" id="Pkt-7B-20c"/>
                             <constraint firstItem="7e1-Af-rlj" firstAttribute="trailing" secondItem="dv0-wk-vWa" secondAttribute="trailing" id="SCl-xF-jrR"/>
                             <constraint firstItem="U1B-Px-o1J" firstAttribute="leading" secondItem="7e1-Af-rlj" secondAttribute="leading" id="VC4-lR-3cb"/>
+                            <constraint firstItem="1dg-aJ-wmb" firstAttribute="leading" secondItem="7e1-Af-rlj" secondAttribute="leading" constant="10" id="jiI-qa-YLe"/>
                             <constraint firstItem="U1B-Px-o1J" firstAttribute="top" secondItem="7e1-Af-rlj" secondAttribute="top" id="joi-6D-iBO"/>
                             <constraint firstItem="dv0-wk-vWa" firstAttribute="top" secondItem="U1B-Px-o1J" secondAttribute="bottom" constant="8" symbolic="YES" id="qTr-u8-7sp"/>
+                            <constraint firstItem="1dg-aJ-wmb" firstAttribute="top" secondItem="dv0-wk-vWa" secondAttribute="bottom" constant="8" id="rYl-y0-oKL"/>
+                            <constraint firstItem="1dg-aJ-wmb" firstAttribute="bottom" secondItem="7e1-Af-rlj" secondAttribute="bottom" id="vYL-9k-cIo"/>
                             <constraint firstItem="dv0-wk-vWa" firstAttribute="leading" secondItem="7e1-Af-rlj" secondAttribute="leading" id="xmQ-DM-Jhk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7e1-Af-rlj"/>
@@ -161,11 +175,22 @@
                         <outlet property="salaryLabel" destination="KC8-IM-QdH" id="x4F-L5-NXI"/>
                         <outlet property="toysLabel" destination="n4T-RD-mq0" id="qfd-Ve-CuL"/>
                         <outlet property="transactionTableView" destination="dv0-wk-vWa" id="RMi-kn-ftQ"/>
+                        <segue destination="xfe-FA-ah4" kind="show" identifier="showTransactions" id="mtX-rb-PJu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ive-ut-dVU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-68.115942028985515" y="13.392857142857142"/>
+        </scene>
+        <!--TransactionList-->
+        <scene sceneID="hB5-ma-uEU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TransactionList" id="xfe-FA-ah4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Xvc-5Q-oiD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TD4-es-qUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="633" y="13"/>
         </scene>
     </scenes>
 </document>
